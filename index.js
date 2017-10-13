@@ -16,14 +16,22 @@ app.get('/', function (req, res) {
       str = '';
 
       $('h4.theater-detail-movie-title').each(function (index, element) {
-        str += $(element).html() + '<br>';
+        var str2 = '';
+        var showtimeAttribute = $(element)
+          .find('.showtime-attribute');
+
+        $(showtimeAttribute).each(function (i, el) {
+          str2 += $(el).html() + ' ';
+        });
+
+        str += $(element).html() + '<br>' + str2 + '<br><br>';
       });
 
-      $(movie).each(function (index, element) {
-        var name = $(element).find('.theater-detail-movie-title').html();
-        var runtime = $(element).find('.theater-detail-movie-rating-runtime').html();
-        str += 'name: ' + name + ', runtime: ' + runtime + '<br>';
-      });
+      // $(movie).each(function (index, element) {
+      //   var name = $(element).find('.theater-detail-movie-title').html();
+      //   var runtime = $(element).find('.theater-detail-movie-rating-runtime').html();
+      //   str += 'name: ' + name + ', runtime: ' + runtime + '<br>';
+      // });
 
       res.send(str);
     }
