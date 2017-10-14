@@ -13,19 +13,46 @@ app.get('/', function (req, res) {
       var name = $(movie).find('.theater-detail-movie-title').html();
       var runtime = $(movie).find('.theater-detail-movie-rating-runtime').html();
       var str = 'Name: ' + name + ', runtime: ' + runtime;
+      var __tdd = 'Nothing';
       str = '';
 
-      $('h4.theater-detail-movie-title').each(function (index, element) {
-        var str2 = '';
-        var showtimeAttribute = $(element)
-          .find('.showtime-attribute');
-
-        $(showtimeAttribute).each(function (i, el) {
-          str2 += $(el).html() + ' ';
-        });
-
-        str += $(element).html() + '<br>' + str2 + '<br><br>';
+      $('script').each(function (i, el) {
+        if (i === 17) {
+          str = $(el).html() + '<br>';
+          str = str.replace('var __tdd', '__tdd');
+          eval(str);
+          //console.log(__tdd);
+        }
       });
+
+      // $('.row.theater-detail-movie').each(function (index, element) {
+      //   var title = $(element)
+      //     .find('.theater-detail-movie-title').html();
+      //   var showtimeAttribute = $(element)
+      //     .find('.showtime-attribute').html();
+      //   var runtime = $(element)
+      //     .find('.theater-detail-movie-rating-runtime').html();
+      //   var showtimes = $(element)
+      //     .find('.button-group.showtime').html();
+
+      //   str += title + '<br>' +
+      //     showtimeAttribute   + '<br>' +
+      //     runtime             + '<br>' +
+      //     showtimes           + '<br>' +
+      //     '<br><br>';
+      // });
+
+      // $('h4.theater-detail-movie-title').each(function (index, element) {
+      //   var str2 = '';
+      //   var showtimeAttribute = $(element)
+      //     .find('.showtime-attribute');
+
+      //   $(showtimeAttribute).each(function (i, el) {
+      //     str2 += $(el).html() + ' ';
+      //   });
+
+      //   str += $(element).html() + '<br>' + str2 + '<br><br>';
+      // });
 
       // $(movie).each(function (index, element) {
       //   var name = $(element).find('.theater-detail-movie-title').html();
