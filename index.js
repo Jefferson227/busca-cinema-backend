@@ -2,9 +2,12 @@ var express = require('express');
 var cheerio = require('cheerio');
 var request = require('request');
 var app = express();
+var cors = require('cors');
 var baseUrl = 'https://api-content.ingresso.com/v0';
 var partnership = '/partnership/0';
 var port = process.env.PORT || 3000;
+
+app.use(cors());
 
 app.get('/', function (req, res) {
   var url = 'http://www.movietickets.com/theaters/detail/id/ti-6166';
