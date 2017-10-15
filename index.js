@@ -4,6 +4,7 @@ var request = require('request');
 var app = express();
 var baseUrl = 'https://api-content.ingresso.com/v0';
 var partnership = '/partnership/0';
+var port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
   var url = 'http://www.movietickets.com/theaters/detail/id/ti-6166';
@@ -31,6 +32,6 @@ app.get('/events/city/:id', function (req, res) {
   });
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });
