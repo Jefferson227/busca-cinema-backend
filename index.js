@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 
   request(url, function (error, response, html) {
     if (!error) {
-      res.send(str);
+      res.send('Hello this is the busca-cinema-backend :)');
     }
     else {
       res.send(error);
