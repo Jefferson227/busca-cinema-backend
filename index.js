@@ -56,8 +56,13 @@ app.get('/can/theater/:theaterId/movies', function (req, res) {
         var strJson = $(el).html();
 
         if (strJson.indexOf('var __tdd') > -1) {
-          result = strJson.substr(strJson.indexOf('var __tdd'), strJson.indexOf('var __tdm') - strJson.indexOf('var __tdd'));
-          result = result.replace('var __tdd = ', '').replace(';', '').trim();
+          var startIndex = strJson.indexOf('var __tdd');
+          var size       = strJson.indexOf('var __tdm') - strJson.indexOf('var __tdd');
+          var __tdd      = '';
+
+          __tdd  = strJson.substr(startIndex, size);
+          __tdd  = __tdd.replace('var __tdd = ', '').replace(';', '').trim();
+          result = __tdd;
         }
       });
 
