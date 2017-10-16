@@ -20,7 +20,7 @@ app.get('/events/city/:id', function (req, res) {
 
   request(url, function (error, response, html) {
     if (!error) {
-      res.send(html);
+      res.send(html || []);
     }
     else {
       res.send(error);
@@ -33,7 +33,7 @@ app.get('/events/:id', function (req, res) {
 
   request(url, function (error, response, html) {
     if (!error) {
-      res.send(html);
+      res.send(html || []);
     }
     else {
       res.send(error);
@@ -46,7 +46,7 @@ app.get('/events/:id', function (req, res) {
 
   request(url, function (error, response, html) {
     if (!error) {
-      res.send(html);
+      res.send(html || []);
     }
     else {
       res.send(error);
@@ -59,7 +59,7 @@ app.get('/sessions/city/:cityId/event/:movieId/date/:date', function (req, res) 
 
   request(url, function (error, response, html) {
     if (!error) {
-      res.send(html);
+      res.send(html || []);
     }
     else {
       res.send(error);
