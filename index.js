@@ -9,58 +9,34 @@ app.get('/', function (req, res) {
   request(url, function (error, response, html) {
     if (!error) {
       var $ = cheerio.load(html);
-      var movie = $('row.theater-detail-movie');
-      var name = $(movie).find('.theater-detail-movie-title').html();
-      var runtime = $(movie).find('.theater-detail-movie-rating-runtime').html();
-      var str = 'Name: ' + name + ', runtime: ' + runtime;
-      var __tdd = 'Nothing';
-      str = '';
 
-      $('script').each(function (i, el) {
-        if (i === 17) {
-          str = $(el).html() + '<br>';
-          str = str.replace('var __tdd', '__tdd');
-          eval(str);
-          //console.log(__tdd);
-        }
+      res.send('This implementation is on progress');
+    }
+    else {
+      res.send(error);
+    }
+  });
+});
+
+app.get('/can/theaters/:city', function (req, res) {
+  var url = 'https://www.movietickets.com/search?indexCatalogue=www-site&searchQuery=' + req.params.city + '&wordsMode=AllWords';
+
+  request(url, function (error, response, html) {
+    if (!error) {
+      var $ = cheerio.load(html);
+      var theaters = [];
+
+      $('.search-grouping').each(function (i, el) {
+        var theater = {
+          name: $(el).find('.search-item a').html(),
+          address: $(el).find('.search-descript').html(),
+          link: $(el).find('.search-link').html()
+        };
+
+        theaters.push(theater);
       });
 
-      // $('.row.theater-detail-movie').each(function (index, element) {
-      //   var title = $(element)
-      //     .find('.theater-detail-movie-title').html();
-      //   var showtimeAttribute = $(element)
-      //     .find('.showtime-attribute').html();
-      //   var runtime = $(element)
-      //     .find('.theater-detail-movie-rating-runtime').html();
-      //   var showtimes = $(element)
-      //     .find('.button-group.showtime').html();
-
-      //   str += title + '<br>' +
-      //     showtimeAttribute   + '<br>' +
-      //     runtime             + '<br>' +
-      //     showtimes           + '<br>' +
-      //     '<br><br>';
-      // });
-
-      // $('h4.theater-detail-movie-title').each(function (index, element) {
-      //   var str2 = '';
-      //   var showtimeAttribute = $(element)
-      //     .find('.showtime-attribute');
-
-      //   $(showtimeAttribute).each(function (i, el) {
-      //     str2 += $(el).html() + ' ';
-      //   });
-
-      //   str += $(element).html() + '<br>' + str2 + '<br><br>';
-      // });
-
-      // $(movie).each(function (index, element) {
-      //   var name = $(element).find('.theater-detail-movie-title').html();
-      //   var runtime = $(element).find('.theater-detail-movie-rating-runtime').html();
-      //   str += 'name: ' + name + ', runtime: ' + runtime + '<br>';
-      // });
-
-      res.send(str);
+      res.send(theaters);
     }
     else {
       res.send(error);
