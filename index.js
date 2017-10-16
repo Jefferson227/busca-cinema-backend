@@ -44,6 +44,30 @@ app.get('/can/theaters/:city', function (req, res) {
   });
 });
 
+app.get('/can/theater/:theaterId/movies', function (req, res) {
+  var url = 'http://www.movietickets.com/theaters/detail/id/ti-' + req.params.theaterId;
+
+  request(url, function (error, response, html) {
+    if (!error) {
+      var $ = cheerio.load(html);
+      var result = 'Not found';
+
+      $('script').each(function (i, el) {
+        var strJson = $(el).html();
+
+        if (strJson.indexOf('var __tdd') > -1) {
+          result = strJson.substr(strJson.indexOf('var __tdd'), strJson.indexOf('var __tdm'));
+        }
+      });
+
+      res.send(result);
+    }
+    else {
+      res.send(error);
+    }
+  });
+});
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
