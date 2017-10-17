@@ -82,7 +82,7 @@ app.get('/can/theater/:theaterId/movies', function (req, res) {
   });
 });
 
-app.get('/city/:id/movies', function (req, res) {
+app.get('/city/movies', function (req, res) {
   var url = 'http://www.movietickets.com/movies';
 
   request(url, function (error, response, html) {
