@@ -82,6 +82,30 @@ app.get('/can/theater/:theaterId/movies', function (req, res) {
   });
 });
 
+app.get('/city/:id/movies', function (req, res) {
+  var url = 'http://www.movietickets.com/movies';
+
+  request(url, function (error, response, html) {
+    if (!error) {
+      var $      = cheerio.load(html);
+      var result = '';
+
+      $('script').each(function (i, el) {
+        var strJson = $(el).html();
+
+        if (strJson.indexOf('MovielandingJsonObject') > -1) {
+          result = strJson.replace('var MovielandingJsonObject = ', '').replace(';', '');
+        }
+      });
+
+      res.send(result);
+    }
+    else {
+      res.send(error);
+    }
+  });
+});
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
