@@ -99,26 +99,29 @@ app.get('/city/movies', function (req, res) {
       });
 
       var movies = [];
-      var jsonMovies = JSON.parse(result)
+      var jsonMovies = JSON.parse(result).MoviesNowPlaying
         .map(function (item) {
-          var genres = item.Details.Genre.Attributes
-            map(function (genre) {
-              return genre.Name;
+          var genres = item.Genre
+            .map(function (genre) {
+              return genre.Attributes.Name;
             });
 
+          var id = item.LinkUrl.split('/')[6]
+            .split('-')[1];
+
           return {
-            id: '',
-            title: item.DetailsName,
-            duration: item.Details.RuntimeInMinutes,
-            contentRating: item.Details.Rating,
-            images: [{
+            id            : id,
+            title         : item.Details.Name,
+            duration      : item.Details.RuntimeInMinutes,
+            contentRating : item.Details.Rating,
+            images        : [{
               url: item.Details.PosterUrl.replace('{width}', '800').replace('{height}', '600')
             }],
-            genres: genres
+            genres        : genres
           }
         });
 
-      res.send(result);
+      res.send(jsonMovies);
     }
     else {
       res.send(error);
