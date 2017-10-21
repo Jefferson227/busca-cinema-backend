@@ -28,9 +28,12 @@ app.get('/theaters/:city', function (req, res) {
 
       $('.search-grouping').each(function (i, el) {
         var theater = {
-          name: $(el).find('.search-item a').html(),
-          address: $(el).find('.search-descript').html(),
-          link: $(el).find('.search-link').html()
+          id      : $(el).find('.search-link').html()
+            .split('/')[6]
+            .split('-')[1],
+          name    : $(el).find('.search-item a').html(),
+          address : $(el).find('.search-descript').html(),
+          link    : $(el).find('.search-link').html()
         };
 
         theaters.push(theater);
