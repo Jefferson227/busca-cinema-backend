@@ -47,7 +47,7 @@ app.get('/theaters/:city', function (req, res) {
   });
 });
 
-app.get('/can/theater/:theaterId/movies', function (req, res) {
+app.get('/theater/:theaterId/movies', function (req, res) {
   var url = 'http://www.movietickets.com/theaters/detail/id/ti-' + req.params.theaterId;
 
   request(url, function (error, response, html) {
