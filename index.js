@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
   });
 });
 
-app.get('/can/theaters/:city', function (req, res) {
+app.get('/theaters/:city', function (req, res) {
   var url = 'https://www.movietickets.com/search?indexCatalogue=www-site&searchQuery=' + req.params.city + '&wordsMode=AllWords';
 
   request(url, function (error, response, html) {
