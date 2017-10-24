@@ -71,7 +71,7 @@ app.get('/theater/:theaterId/movies', function (req, res) {
           size       = strJson.indexOf('var __metadata') - strJson.indexOf('var __tdm');
 
           __tdm  = strJson.substr(startIndex, size);
-          __tdm  = __tdm.replace('var __tdm = ', '').replace(';', '').trim();
+          __tdm  = __tdm.replace('var __tdm = ', '').replace(/;/g, '').trim();
 
           result = __tdm;
         }
