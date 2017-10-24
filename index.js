@@ -236,20 +236,22 @@ app.get('/movie/:movieId/sessions', function (req, res) {
                             .replace(/;/g, '')
                             .trim();
 
-                  result = JSON.parse(__tdm);
+                  var movie = JSON.parse(__tdm);
+
+                  result.MovieFeatureGroupingsIn2D = movie.MovieFeatureGroupingsIn2D;
+                  result.MovieFeatureGroupingsIn3D = movie.MovieFeatureGroupingsIn3D;
+                  result.Movie                     = movie.Movie;
+                  return result;
                 }
               });
-
-              res.send(result);
-            }
-            else {
-              res.send(error);
             }
           });
         });
       }
 
-      res.send(jsonMovies);
+      theaters = theaters.filter(function (theaterFilter) { theaterFilter.Movie.id === movie[0].id });
+
+      res.send(theaters);
     }
     else {
       res.send(error);
