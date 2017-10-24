@@ -53,7 +53,7 @@ app.get('/theater/:theaterId/movies', function (req, res) {
   request(url, function (error, response, html) {
     if (!error) {
       var $ = cheerio.load(html);
-      var result = 'Not found';
+      var result = {};
 
       $('script').each(function (i, el) {
         var strJson = $(el).html();
@@ -71,9 +71,13 @@ app.get('/theater/:theaterId/movies', function (req, res) {
           size       = strJson.indexOf('var __metadata') - strJson.indexOf('var __tdm');
 
           __tdm  = strJson.substr(startIndex, size);
-          __tdm  = __tdm.replace('var __tdm = ', '').replace(/;/g, '').trim();
+          __tdm  = __tdm
+                    .replace(/var __tdm = /g, '')
+                    .replace(/;/g, '')
+                    .replace(/\\n/g, '')
+                    .trim();
 
-          result = __tdm;
+          result = JSON.parse(__tdm);
         }
       });
 
