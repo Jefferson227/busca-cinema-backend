@@ -207,7 +207,46 @@ app.get('/movie/:movieId/sessions', function (req, res) {
 
       // Third: Getting all the sessions on theaters by movie
       if (theaters.length) {
+        theaters = theaters.map(function (index, theater) {
+          var url = 'http://www.movietickets.com/theaters/detail/id/ti-' + theater.id;
 
+          request(url, function (error, response, html) {
+            if (!error) {
+              var $ = cheerio.load(html);
+              var result = theater;
+
+              $('script').each(function (i, el) {
+                var strJson = $(el).html();
+
+                if (strJson.indexOf('var __tdd') > -1) {
+                  var startIndex = strJson.indexOf('var __tdd');
+                  var size       = strJson.indexOf('var __tdm') - strJson.indexOf('var __tdd');
+                  var __tdd      = '';
+                  var __tdm      = '';
+
+                  __tdd  = strJson.substr(startIndex, size);
+                  __tdd  = __tdd.replace('var __tdd = ', '').replace(';', '').trim();
+
+                  startIndex = strJson.indexOf('var __tdm');
+                  size       = strJson.indexOf('var __metadata') - strJson.indexOf('var __tdm');
+
+                  __tdm  = strJson.substr(startIndex, size);
+                  __tdm  = __tdm
+                            .replace(/var __tdm = /g, '')
+                            .replace(/;/g, '')
+                            .trim();
+
+                  result = JSON.parse(__tdm);
+                }
+              });
+
+              res.send(result);
+            }
+            else {
+              res.send(error);
+            }
+          });
+        });
       }
 
       res.send(jsonMovies);
