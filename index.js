@@ -177,8 +177,8 @@ app.get('/movie/:movieId/sessions', function (req, res) {
           }
         });
 
-      movies = JSON.parse(jsonMovies)
-        .filter(function (movieFilter) { return movieFilter.id = req.params.movieId });
+        movies = jsonMovies
+                   .filter(function (movieFilter) { return movieFilter.id === req.params.movieId });
 
       // Second: Getting all the theaters by city
       if (movies.length) {
