@@ -144,7 +144,9 @@ app.get('/movie/:movieId/sessions', function (req, res) {
 
       getTheatersByCity('ottawa')
         .then((r) => {
-          res.send(r);
+          console.log('getting getting theaters...');
+          getSessionsByTheater(6166)
+            .then((r) => res.send(r));
         });
     });
 
@@ -222,6 +224,48 @@ app.get('/movie/:movieId/sessions', function (req, res) {
 
       return theaters;
     });
+  }
+
+  function getSessionsByTheater(theaterId) {
+    var options = {
+        uri: 'https://www.movietickets.com/theaters/detail/id/ti-' + theaterId,
+        transform: function (body) {
+            return cheerio.load(body);
+        }
+    };
+
+    return requestPromise(options)
+      .then(($) => {
+        var result = {};
+
+        $('script').each(function (i, el) {
+          var strJson = $(el).html();
+
+          if (strJson.indexOf('var __tdd') > -1) {
+            var startIndex = strJson.indexOf('var __tdd');
+            var size       = strJson.indexOf('var __tdm') - strJson.indexOf('var __tdd');
+            var __tdd      = '';
+            var __tdm      = '';
+
+            __tdd  = strJson.substr(startIndex, size);
+            __tdd  = __tdd.replace('var __tdd = ', '').replace(';', '').trim();
+
+            startIndex = strJson.indexOf('var __tdm');
+            size       = strJson.indexOf('var __metadata') - strJson.indexOf('var __tdm');
+
+            __tdm  = strJson.substr(startIndex, size);
+            __tdm  = __tdm
+                      .replace(/var __tdm = /g, '')
+                      .replace(/;/g, '')
+                      .replace(/\\n/g, '')
+                      .trim();
+
+            result = JSON.parse(__tdm);
+          }
+        });
+
+        return result;
+      });
   }
 });
 
