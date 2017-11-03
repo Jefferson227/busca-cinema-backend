@@ -138,7 +138,32 @@ app.get('/movies', function (req, res) {
 });
 
 app.get('/movie/:movieId/sessions', function (req, res) {
-  // Let's do this piece by piece...
+  getMovieById()
+    .then((r) => console.log('aehooooooo'));
+
+  function getMovieById() {
+    // Getting all movies and filtering by id
+    var result = 'not found';
+    var options = {
+        uri: 'https://www.movietickets.com/movies',
+        transform: function (body) {
+            return cheerio.load(body);
+        }
+    };
+
+    return requestPromise(options)
+      .then(($) => {
+        $('script').each(function (i, el) {
+          var strJson = $(el).html();
+
+          if (strJson.indexOf('MovielandingJsonObject') > -1) {
+            result = strJson.replace('var MovielandingJsonObject = ', '').replace(';', '');
+          }
+        });
+        res.send(result);
+      });
+  }
+
 });
 
 app.listen(3000, function () {
