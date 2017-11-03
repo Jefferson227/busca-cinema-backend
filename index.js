@@ -138,10 +138,10 @@ app.get('/movies', function (req, res) {
 });
 
 app.get('/movie/:movieId/sessions', function (req, res) {
-  getMovieById()
-    .then((r) => console.log('aehooooooo'));
+  getMovieById(req.params.movieId)
+    .then((r) => res.send(r));
 
-  function getMovieById() {
+  function getMovieById(movieId) {
     // Getting all movies and filtering by id
     var result = 'not found';
     var options = {
@@ -160,7 +160,32 @@ app.get('/movie/:movieId/sessions', function (req, res) {
             result = strJson.replace('var MovielandingJsonObject = ', '').replace(';', '');
           }
         });
-        res.send(result);
+
+        var movies = [];
+        return JSON.parse(result).MoviesNowPlaying
+          .map(function (item) {
+            var genres = item.Genre
+              .map(function (genre) {
+                return genre.Attributes.Name;
+              });
+
+            var id = item.LinkUrl.split('/')[6]
+              .split('-')[1];
+
+            return {
+              id            : id,
+              title         : item.Details.Name,
+              duration      : item.Details.RuntimeInMinutes,
+              contentRating : item.Details.Rating,
+              images        : [{
+                url: item.Details.PosterUrl.replace('{width}', '800').replace('{height}', '600')
+              }],
+              genres        : genres
+            }
+          })
+          .filter(function (filter) {
+            return filter.id === movieId;
+          });
       });
   }
 
