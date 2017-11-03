@@ -143,10 +143,21 @@ app.get('/movie/:movieId/sessions', function (req, res) {
       console.log('getting movies...');
 
       getTheatersByCity('ottawa')
-        .then((r) => {
-          console.log('getting getting theaters...');
-          getSessionsByTheater(6166)
-            .then((r) => res.send(r));
+        .then((theaters) => {
+          console.log('getting sessions...');
+          var sessions = [];
+
+          theaters.forEach((theater) => {
+            getSessionsByTheater(theater.id, req.params.movieId)
+              .then((session) => {
+                if (session) {
+                  console.log(session);
+                  sessions.push(session);
+                }
+              });
+          })
+
+          res.send(sessions);
         });
     });
 
@@ -226,7 +237,7 @@ app.get('/movie/:movieId/sessions', function (req, res) {
     });
   }
 
-  function getSessionsByTheater(theaterId) {
+  function getSessionsByTheater(theaterId, movieId) {
     var options = {
         uri: 'https://www.movietickets.com/theaters/detail/id/ti-' + theaterId,
         transform: function (body) {
@@ -264,7 +275,8 @@ app.get('/movie/:movieId/sessions', function (req, res) {
           }
         });
 
-        return result;
+        return result
+          .filter((filter) => filter.Movie.id === movieId);
       });
   }
 });
