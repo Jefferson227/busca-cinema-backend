@@ -1,6 +1,7 @@
 var express = require('express');
 var cheerio = require('cheerio');
 var request = require('request');
+var requestPromise = require('request-promise');
 var app = express();
 
 app.get('/', function (req, res) {
