@@ -139,7 +139,14 @@ app.get('/movies', function (req, res) {
 
 app.get('/movie/:movieId/sessions', function (req, res) {
   getMovieById(req.params.movieId)
-    .then((r) => res.send(r));
+    .then((r) => {
+      console.log('getting movies...');
+
+      getTheatersByCity('ottawa')
+        .then((r) => {
+          res.send(r);
+        });
+    });
 
   function getMovieById(movieId) {
     // Getting all movies and filtering by id
@@ -189,6 +196,33 @@ app.get('/movie/:movieId/sessions', function (req, res) {
       });
   }
 
+  function getTheatersByCity(city) {
+    var theaters = [];
+    var options = {
+        uri: 'https://www.movietickets.com/search?indexCatalogue=www-site&searchQuery=' + city + '&wordsMode=AllWords',
+        transform: function (body) {
+            return cheerio.load(body);
+        }
+    };
+
+    return requestPromise(options)
+      .then(($) => {
+        $('.search-grouping').each(function (i, el) {
+          var theater = {
+            id      : $(el).find('.search-link').html()
+              .split('/')[6]
+              .split('-')[1],
+            name    : $(el).find('.search-item a').html(),
+            address : $(el).find('.search-descript').html(),
+            link    : $(el).find('.search-link').html()
+          };
+
+          theaters.push(theater);
+      })
+
+      return theaters;
+    });
+  }
 });
 
 app.listen(3000, function () {
