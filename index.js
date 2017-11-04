@@ -145,19 +145,29 @@ app.get('/movie/:movieId/sessions', function (req, res) {
       getTheatersByCity('ottawa')
         .then((theaters) => {
           console.log('getting sessions...');
+
           var sessions = [];
+          var promises = [];
 
           theaters.forEach((theater) => {
-            getSessionsByTheater(theater.id, req.params.movieId)
-              .then((session) => {
-                if (session) {
-                  console.log(session);
-                  sessions.push(session);
-                }
-              });
+            promises.push(
+              getSessionsByTheater(theater.id, req.params.movieId)
+                .then((session) => {
+                  // if (session.hasOwnProperty('Movie')) {
+                  //   return session;
+                  // }
+
+                  return session;
+                })
+            );
           })
 
-          res.send(sessions);
+          Promise.all(promises)
+            .then((r) => {
+              console.log(r);
+              res.send(r);
+            })
+            .catch((err) => console.error(err));
         });
     });
 
