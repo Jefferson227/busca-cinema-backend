@@ -1,8 +1,9 @@
 var express = require('express');
 var cheerio = require('cheerio');
 var request = require('request');
+var requestPromise = require('request-promise');
 var app = express();
-var baseUrl = 'https://api-content.ingresso.com/v0';
+var baseUrl = 'https://www.tribute.ca';
 var partnership = '/partnership/0';
 var port = process.env.PORT || 3000;
 
@@ -55,6 +56,19 @@ app.get('/events/:id', function (req, res) {
 });
 
 app.get('/sessions/city/:cityId/event/:movieId/date/:date', function (req, res) {
+  var url = baseUrl + '/sessions/city/' + req.params.cityId + '/event/' + req.params.movieId + partnership + '?date=' + req.params.date;
+
+  request(url, function (error, response, html) {
+    if (!error) {
+      res.send(html || []);
+    }
+    else {
+      res.send(error);
+    }
+  });
+});
+
+app.get('/movies', function (req, res) {
   var url = baseUrl + '/sessions/city/' + req.params.cityId + '/event/' + req.params.movieId + partnership + '?date=' + req.params.date;
 
   request(url, function (error, response, html) {
