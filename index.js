@@ -79,8 +79,16 @@ app.get('/movies', function (req, res) {
   requestPromise(options)
     .then(($) => {
       let movies = $('#rowheight').children('li');
+      let arrayMovies = [];
 
-      console.log($($(movies)[1]).html());
+      $(movies).each((i, movie) => {
+        //console.log($(movie).html());
+        console.log({
+          name: $(movie).find('#phShowtimesLink').find('span').text().trim()
+        });
+      });
+
+      //console.log($($(movies)[1]).html());
       res.send($($(movies)[1]).html());
     });
 });
