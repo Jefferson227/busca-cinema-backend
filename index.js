@@ -78,10 +78,10 @@ app.get('/movies', function (req, res) {
 
   requestPromise(options)
     .then(($) => {
-      let movies = $('#rowheight').find('li');
+      let movies = $('#rowheight').children('li');
 
-      console.log(movies.length);
-      res.send(movies.html());
+      console.log($($(movies)[1]).html());
+      res.send($($(movies)[1]).html());
     });
 });
 
