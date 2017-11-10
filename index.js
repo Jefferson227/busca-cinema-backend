@@ -85,6 +85,8 @@ app.get('/movies', function (req, res) {
         //console.log($(movie).html());
         console.log({
           name: $(movie).find('#phShowtimesLink').find('span').text().trim()
+                  || $(movie).find('.trailer').find('span').text().trim()
+                  || $(movie).find('.synopsis').find('span').text().trim()
         });
       });
 
