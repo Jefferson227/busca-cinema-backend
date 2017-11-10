@@ -2,7 +2,8 @@ var express = require('express');
 var cheerio = require('cheerio');
 var request = require('request');
 var requestPromise = require('request-promise');
-var utils = require('./utils');
+var utilsModule = require('./utils');
+var utils = utilsModule();
 var app = express();
 var baseUrl = 'https://www.tribute.ca';
 var partnership = '/partnership/0';
@@ -14,7 +15,6 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', function (req, res) {
-  utils();
   res.send('Hello this is the busca-cinema-backend :)');
 });
 
@@ -71,31 +71,11 @@ app.get('/sessions/city/:cityId/event/:movieId/date/:date', function (req, res) 
 });
 
 app.get('/movies', function (req, res) {
-  var options = {
-    uri: `${baseUrl}/movies/now-playing`,
-    transform: function (body) {
-        return cheerio.load(body);
-    }
-  };
-
-  requestPromise(options)
-    .then(($) => {
-      let movies = $('#rowheight').children('li');
-      let arrayMovies = [];
-
-      $(movies).each((i, movie) => {
-        arrayMovies.push({
-          id: $(movie).find('a').attr('href').split('/')[3],
-          name: $(movie).find('#phShowtimesLink').find('span').text().trim()
-                  || $(movie).find('.trailer').find('span').text().trim()
-                  || $(movie).find('.synopsis').find('span').text().trim(),
-          img: $(movie).find('a').find('img').data('src')
-                  || $(movie).find('a').find('img').attr('src')
-        });
+  utils
+    .getMovies()
+      .then((r) => {
+        res.send(r);
       });
-
-      res.send(arrayMovies);
-    });
 });
 
 app.listen(port, function () {
