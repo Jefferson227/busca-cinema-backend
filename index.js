@@ -2,6 +2,7 @@ var express = require('express');
 var cheerio = require('cheerio');
 var request = require('request');
 var requestPromise = require('request-promise');
+var utils = require('./utils');
 var app = express();
 var baseUrl = 'https://www.tribute.ca';
 var partnership = '/partnership/0';
@@ -13,6 +14,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', function (req, res) {
+  utils();
   res.send('Hello this is the busca-cinema-backend :)');
 });
 
