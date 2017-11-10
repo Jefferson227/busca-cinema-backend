@@ -82,16 +82,17 @@ app.get('/movies', function (req, res) {
       let arrayMovies = [];
 
       $(movies).each((i, movie) => {
-        //console.log($(movie).html());
-        console.log({
+        arrayMovies.push({
+          id: $(movie).find('a').attr('href').split('/')[3],
           name: $(movie).find('#phShowtimesLink').find('span').text().trim()
                   || $(movie).find('.trailer').find('span').text().trim()
-                  || $(movie).find('.synopsis').find('span').text().trim()
+                  || $(movie).find('.synopsis').find('span').text().trim(),
+          img: $(movie).find('a').find('img').data('src')
+                  || $(movie).find('a').find('img').attr('src')
         });
       });
 
-      //console.log($($(movies)[1]).html());
-      res.send($($(movies)[1]).html());
+      res.send(arrayMovies);
     });
 });
 
