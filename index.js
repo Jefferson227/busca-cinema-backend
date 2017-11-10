@@ -69,16 +69,20 @@ app.get('/sessions/city/:cityId/event/:movieId/date/:date', function (req, res) 
 });
 
 app.get('/movies', function (req, res) {
-  var url = baseUrl + '/sessions/city/' + req.params.cityId + '/event/' + req.params.movieId + partnership + '?date=' + req.params.date;
+  var options = {
+    uri: `${baseUrl}/movies/now-playing`,
+    transform: function (body) {
+        return cheerio.load(body);
+    }
+  };
 
-  request(url, function (error, response, html) {
-    if (!error) {
-      res.send(html || []);
-    }
-    else {
-      res.send(error);
-    }
-  });
+  requestPromise(options)
+    .then(($) => {
+      let movies = $('#rowheight').find('li');
+
+      console.log(movies.length);
+      res.send(movies.html());
+    });
 });
 
 app.listen(port, function () {
