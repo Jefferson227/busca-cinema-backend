@@ -106,8 +106,6 @@ let utils = () => {
     getTheaters: getTheaters,
     getSessionsByTheater: getSessionsByTheater
   };
-
-  console.log('Utils imported');
 };
 
 module.exports = utils;
