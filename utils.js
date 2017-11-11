@@ -86,7 +86,11 @@ let utils = () => {
         let arraySessions = [];
 
         $(sessions).each((i, session) => {
-          console.log($(session).html());
+          //console.log($(session).html());
+          getShowtimes(
+            $(session)
+              .find('.showoptions')
+          );
 
           let ratingGenreRuntime =
             $(session)
@@ -142,6 +146,28 @@ let utils = () => {
           }
 
           return splitted[2];
+        }
+
+        function getShowtimes(showOptions) {
+          let showtimes = [];
+
+          $(showOptions)
+            .children('.optionWrap')
+            .each((i, showOption) => {
+              console.log(
+                $(showOption)
+                  .find('h3')
+                  .text()
+              )
+              showtimes.push({
+                type:
+                  $(showOption)
+                    .find('h3')
+                    .text()
+              });
+          });
+
+          return showtimes;
         }
 
         return arraySessions;
