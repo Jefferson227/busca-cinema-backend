@@ -100,7 +100,12 @@ let utils = () => {
           arraySessions.push({
             rating: extractRating(ratingGenreRuntime),
             genre: extractGenre(ratingGenreRuntime),
-            runtime: extractRuntime(ratingGenreRuntime)
+            runtime: extractRuntime(ratingGenreRuntime),
+            showtimes:
+              getShowtimes(
+                $(session)
+                  .find('.showoptions')
+              )
             // rating: extractRating(ratingGenreRuntime),
             // genre: extractGenre(ratingGenreRuntime),
             // runtime: extractRuntime(ratingGenreRuntime)
@@ -155,19 +160,32 @@ let utils = () => {
             .children('.optionWrap')
             .each((i, showOption) => {
               console.log(
-                $(showOption)
-                  .find('h3')
-                  .text()
+                getTimes($(showOption).find('ul'))
               )
+
               showtimes.push({
                 type:
                   $(showOption)
                     .find('h3')
-                    .text()
+                    .text(),
+                times:
+                  getTimes($(showOption).find('ul'))
               });
           });
 
           return showtimes;
+        }
+
+        function getTimes(timeList) {
+          let times = [];
+
+          $(timeList)
+            .children('li')
+            .each((i, time) => {
+              times.push($(time).text());
+            });
+
+           return times;
         }
 
         return arraySessions;
