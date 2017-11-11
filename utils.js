@@ -87,15 +87,62 @@ let utils = () => {
 
         $(sessions).each((i, session) => {
           console.log($(session).html());
-          // arraySessions.push({
-          //   id: $(movie).find('a').attr('href').split('/')[3],
-          //   name: $(movie).find('#phShowtimesLink').find('span').text().trim()
-          //           || $(movie).find('.trailer').find('span').text().trim()
-          //           || $(movie).find('.synopsis').find('span').text().trim(),
-          //   img: $(movie).find('a').find('img').data('src')
-          //           || $(movie).find('a').find('img').attr('src')
-          // });
+
+          let ratingGenreRuntime =
+            $(session)
+              .find('.rating')
+              .text();
+
+          arraySessions.push({
+            rating: extractRating(ratingGenreRuntime),
+            genre: extractGenre(ratingGenreRuntime),
+            runtime: extractRuntime(ratingGenreRuntime)
+            // rating: extractRating(ratingGenreRuntime),
+            // genre: extractGenre(ratingGenreRuntime),
+            // runtime: extractRuntime(ratingGenreRuntime)
+            // name: $(movie).find('#phShowtimesLink').find('span').text().trim()
+            //         || $(movie).find('.trailer').find('span').text().trim()
+            //         || $(movie).find('.synopsis').find('span').text().trim(),
+            // img: $(movie).find('a').find('img').data('src')
+            //         || $(movie).find('a').find('img').attr('src')
+          });
         });
+
+        function extractRating(str) {
+          return str
+              .replace('(', '')
+              .replace(')', '')
+              .split(',')[0]
+              .trim();
+        }
+
+        function extractGenre(str) {
+          let splitted =
+            str
+              .replace('(', '')
+              .replace(')', '')
+              .split(',');
+
+          if (splitted.length < 3) {
+            return 'N/A';
+          }
+
+          return splitted[1];
+        }
+
+        function extractRuntime(str) {
+          let splitted =
+            str
+              .replace('(', '')
+              .replace(')', '')
+              .split(',');
+
+          if (splitted.length < 3) {
+            return splitted[1];
+          }
+
+          return splitted[2];
+        }
 
         return arraySessions;
       });
