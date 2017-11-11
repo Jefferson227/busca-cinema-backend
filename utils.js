@@ -70,9 +70,41 @@ let utils = () => {
       });
   }
 
+  let getSessionsByTheater = (theaterId) => {
+    var options = {
+      uri: `${baseUrl}/showtimes/theatre/theatre/${theaterId}`,
+      transform: function (body) {
+          return cheerio.load(body);
+      }
+    };
+
+    return requestPromise(options)
+      .then(($) => {
+        let sessions =
+          $('.movielist')
+            .find('.movieWrap');
+        let arraySessions = [];
+
+        $(sessions).each((i, session) => {
+          console.log($(session).html());
+          // arraySessions.push({
+          //   id: $(movie).find('a').attr('href').split('/')[3],
+          //   name: $(movie).find('#phShowtimesLink').find('span').text().trim()
+          //           || $(movie).find('.trailer').find('span').text().trim()
+          //           || $(movie).find('.synopsis').find('span').text().trim(),
+          //   img: $(movie).find('a').find('img').data('src')
+          //           || $(movie).find('a').find('img').attr('src')
+          // });
+        });
+
+        return arraySessions;
+      });
+  }
+
   return {
     getMovies: getMovies,
-    getTheaters: getTheaters
+    getTheaters: getTheaters,
+    getSessionsByTheater: getSessionsByTheater
   };
 
   console.log('Utils imported');

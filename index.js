@@ -86,6 +86,14 @@ app.get('/theaters/:cityId', function (req, res) {
       });
 });
 
+app.get('/sessions/:theaterId', function (req, res) {
+  utils
+    .getSessionsByTheater(req.params.theaterId)
+      .then((r) => {
+        res.send(r);
+      });
+});
+
 app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });
