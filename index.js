@@ -22,7 +22,7 @@ app.get('/movies', function (req, res) {
       })
       .catch((err) => {
         res.send({ error: "Couldn't get the movies." });
-      });;
+      });
 });
 
 app.get('/theaters/:cityId', function (req, res) {
@@ -33,7 +33,7 @@ app.get('/theaters/:cityId', function (req, res) {
       })
       .catch((err) => {
         res.send({ error: "Couldn't get the theaters." });
-      });;
+      });
 });
 
 app.get('/sessions/:theaterId', function (req, res) {
