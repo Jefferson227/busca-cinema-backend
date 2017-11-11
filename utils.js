@@ -80,18 +80,12 @@ let utils = () => {
 
     return requestPromise(options)
       .then(($) => {
+        let arraySessions = [];
         let sessions =
           $('.movielist')
             .find('.movieWrap');
-        let arraySessions = [];
 
         $(sessions).each((i, session) => {
-          //console.log($(session).html());
-          getShowtimes(
-            $(session)
-              .find('.showoptions')
-          );
-
           let ratingGenreRuntime =
             $(session)
               .find('.rating')
@@ -106,14 +100,6 @@ let utils = () => {
                 $(session)
                   .find('.showoptions')
               )
-            // rating: extractRating(ratingGenreRuntime),
-            // genre: extractGenre(ratingGenreRuntime),
-            // runtime: extractRuntime(ratingGenreRuntime)
-            // name: $(movie).find('#phShowtimesLink').find('span').text().trim()
-            //         || $(movie).find('.trailer').find('span').text().trim()
-            //         || $(movie).find('.synopsis').find('span').text().trim(),
-            // img: $(movie).find('a').find('img').data('src')
-            //         || $(movie).find('a').find('img').attr('src')
           });
         });
 
@@ -159,10 +145,6 @@ let utils = () => {
           $(showOptions)
             .children('.optionWrap')
             .each((i, showOption) => {
-              console.log(
-                getTimes($(showOption).find('ul'))
-              )
-
               showtimes.push({
                 type:
                   $(showOption)
