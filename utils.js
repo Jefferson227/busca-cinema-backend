@@ -92,6 +92,11 @@ let utils = () => {
               .text();
 
           arraySessions.push({
+            movie:
+              $(session)
+                .find('h2')
+                .find('a')
+                .text(),
             rating: extractRating(ratingGenreRuntime),
             genre: extractGenre(ratingGenreRuntime),
             runtime: extractRuntime(ratingGenreRuntime),
