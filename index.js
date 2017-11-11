@@ -78,6 +78,14 @@ app.get('/movies', function (req, res) {
       });
 });
 
+app.get('/theaters/:cityId', function (req, res) {
+  utils
+    .getTheaters(req.params.cityId)
+      .then((r) => {
+        res.send(r);
+      });
+});
+
 app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });

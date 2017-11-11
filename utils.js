@@ -1,4 +1,3 @@
-
 let utils = () => {
   var request = require('request');
   var requestPromise = require('request-promise');
@@ -33,8 +32,47 @@ let utils = () => {
       });
   }
 
+  let getTheaters = (cityId) => {
+    var options = {
+      uri: `${baseUrl}/showtimes/search/${cityId}/?query=${cityId}&category=all`,
+      transform: function (body) {
+          return cheerio.load(body);
+      }
+    };
+
+    return requestPromise(options)
+      .then(($) => {
+        let theaters =
+          $('#mapMarkerNamesAndLinksToTheatres')
+            .find('ul')
+            .children('li');
+        let arrayTheaters = [];
+
+        $(theaters).each((i, theater) => {
+          arrayTheaters.push({
+            id:
+              $($(theater)
+                .find('a')[1])
+                .attr('href')
+                .split('/')[4],
+            name:
+              $($(theater)
+                .find('a')[1])
+                .text(),
+            uri:
+              $($(theater)
+                .find('a')[1])
+                .attr('href')
+          });
+        });
+
+        return arrayTheaters;
+      });
+  }
+
   return {
-    getMovies: getMovies
+    getMovies: getMovies,
+    getTheaters: getTheaters
   };
 
   console.log('Utils imported');
