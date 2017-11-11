@@ -92,6 +92,12 @@ let utils = () => {
               .text();
 
           arraySessions.push({
+            movieId:
+              $(session)
+                .find('h2')
+                .find('a')
+                .attr('href')
+                .split('/')[3],
             movie:
               $(session)
                 .find('h2')
