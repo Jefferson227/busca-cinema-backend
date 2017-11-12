@@ -1,0 +1,66 @@
+// Endpoint: /events/19730
+{  
+   "id":"19730",
+   "title":"Thor: Ragnarok",
+   "originalTitle":" Thor : Ragnarok",
+   "countryOrigin":"EUA",
+   "priority":1,
+   "contentRating":"12 anos",
+   "duration":"136",
+   "rating":0.0,
+   "synopsis":"Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok e a destruição de seu mundo e o fim da civilização asgardiana, que está nas mãos de uma nova ameaça todo-poderosa, a implacável Hela.",
+   "cast":"Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Benedict Cumberbatch.",
+   "director":"Taika Waititi",
+   "distributor":"Disney",
+   "inPreSale":false,
+   "urlKey":"thor-ragnarok",
+   "isPlaying":true,
+   "countIsPlaying":361,
+   "premiereDate":{  
+      "localDate":"2017-10-26T02:00:00+00:00",
+      "isToday":false,
+      "dayOfWeek":"quinta-feira",
+      "dayAndMonth":"26/10",
+      "hour":"02:00",
+      "year":"2017"
+   },
+   "creationDate":"2017-07-18T20:07:00Z",
+   "city":"Rio de Janeiro",
+   "siteURL":"https://www.ingresso.com/rio-de-janeiro/0/filmes/thor-ragnarok?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=thor-ragnarok",
+   "images":[  
+      {  
+         "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19730-cartaz.jpg",
+         "type":"PosterPortrait"
+      },
+      {  
+         "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19730-destaque.jpg",
+         "type":"PosterHorizontal"
+      }
+   ],
+   "genres":[  
+      "Ação",
+      "Aventura"
+   ],
+   "completeTags":[  
+      {  
+         "name":"Em Alta",
+         "background":"",
+         "color":""
+      }
+   ],
+   "tags":[  
+      "Em Alta"
+   ],
+   "trailers":[  
+      {  
+         "type":"Youtube",
+         "url":"https://www.youtube.com/watch?v=Tlku2z0WBaE ",
+         "embeddedUrl":"//www.youtube.com/embed/Tlku2z0WBaE"
+      },
+      {  
+         "type":"Youtube",
+         "url":"https://www.youtube.com/watch?v=FLv_UB8BdqE ",
+         "embeddedUrl":"//www.youtube.com/embed/FLv_UB8BdqE"
+      }
+   ]
+}

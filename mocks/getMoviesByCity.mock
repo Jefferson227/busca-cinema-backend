@@ -1,0 +1,1889 @@
+// Endpoint: /events/city/36
+{  
+   "items":[  
+      {  
+         "id":"19730",
+         "title":"Thor: Ragnarok",
+         "originalTitle":" Thor : Ragnarok",
+         "countryOrigin":"EUA",
+         "priority":1,
+         "contentRating":"12 anos",
+         "duration":"136",
+         "rating":0.0,
+         "synopsis":"Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok e a destruição de seu mundo e o fim da civilização asgardiana, que está nas mãos de uma nova ameaça todo-poderosa, a implacável Hela.",
+         "cast":"Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Benedict Cumberbatch.",
+         "director":"Taika Waititi",
+         "distributor":"Disney",
+         "inPreSale":false,
+         "urlKey":"thor-ragnarok",
+         "isPlaying":true,
+         "countIsPlaying":361,
+         "premiereDate":{  
+            "localDate":"2017-10-26T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"26/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-07-18T20:07:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/thor-ragnarok?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=thor-ragnarok",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19730-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19730-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ação",
+            "Aventura"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=Tlku2z0WBaE ",
+               "embeddedUrl":"//www.youtube.com/embed/Tlku2z0WBaE"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=FLv_UB8BdqE ",
+               "embeddedUrl":"//www.youtube.com/embed/FLv_UB8BdqE"
+            }
+         ]
+      },
+      {  
+         "id":"19805",
+         "title":"Star Wars - Os últimos Jedi",
+         "originalTitle":"Star Wars: The Last Jedi ",
+         "countryOrigin":"EUA",
+         "priority":2,
+         "contentRating":"Verifique a Classificação",
+         "duration":"150",
+         "rating":0.0,
+         "synopsis":"Rey deu seus primeiros passos em \"Star Wars: O Despertar da Força\" e vai continuar sua jornada épica ao lado de Finn, Poe e Luke Skywalker no próximo capítulo da saga \"Star Wars\".",
+         "cast":"Adam Driver, Andy Serkis, Anthony Daniels, Benicio Del Toro, Carrie Fisher",
+         "director":"Rian Johnson",
+         "distributor":"Disney",
+         "inPreSale":true,
+         "urlKey":"star-wars-os-ultimos-jedi",
+         "isPlaying":true,
+         "countIsPlaying":306,
+         "premiereDate":{  
+            "localDate":"2017-12-14T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"14/12",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-08-21T18:19:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/star-wars-os-ultimos-jedi?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=star-wars-os-ultimos-jedi",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19805-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19805-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ação",
+            "Aventura",
+            "Ficção"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=4JB3tHn2S5A ",
+               "embeddedUrl":"//www.youtube.com/embed/4JB3tHn2S5A"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=LjsiBidOwUc ",
+               "embeddedUrl":"//www.youtube.com/embed/LjsiBidOwUc"
+            }
+         ]
+      },
+      {  
+         "id":"19729",
+         "title":"Liga da Justiça",
+         "originalTitle":"Justice League ",
+         "countryOrigin":"EUA",
+         "priority":3,
+         "contentRating":"12 anos",
+         "duration":"133",
+         "rating":0.0,
+         "synopsis":"Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman (Henry Cavill), Bruce Wayne (Ben Affleck) convoca sua nova aliada Diana Prince (Gal Gadot) para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos.",
+         "cast":"Ben Affleck; Gal Gadot; Jason Momoa",
+         "director":"Zack Snyder",
+         "distributor":"Warner Bros",
+         "inPreSale":true,
+         "urlKey":"liga-da-justica",
+         "isPlaying":true,
+         "countIsPlaying":363,
+         "premiereDate":{  
+            "localDate":"2017-11-15T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quarta-feira",
+            "dayAndMonth":"15/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-07-18T19:46:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/liga-da-justica?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=liga-da-justica",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19729-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19729-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ação",
+            "Aventura"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=f4wCAW60Dlg ",
+               "embeddedUrl":"//www.youtube.com/embed/f4wCAW60Dlg"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=M8mOFZQJEoM ",
+               "embeddedUrl":"//www.youtube.com/embed/M8mOFZQJEoM"
+            }
+         ]
+      },
+      {  
+         "id":"20057",
+         "title":"Gosto se Discute",
+         "originalTitle":"Gosto se Discute",
+         "countryOrigin":"Brasil",
+         "priority":4,
+         "contentRating":"12 anos",
+         "duration":"80",
+         "rating":0.0,
+         "synopsis":"Augusto é o famoso chef de um restaurante que já viveu dias de glória e agora precisa lidar com a decadência, enfrentando até a concorrência de um “food truck” recém-instalado do outro lado da rua. Para piorar, um banco, sócio do restaurante, envia uma auditora, Cristina, que quer promover uma verdadeira revolução no local. Desafiado, o chef tem que provar que ainda está em forma, mas acaba perdendo o paladar justamente na hora que precisa criar o novo cardápio.",
+         "cast":"Cassio Gabus Mendes, Kéfera Buchmann, Gabriel Godoy, Paulo Miklos, Robson Nunes, Rodrigo Lopez, Ronaldo Reis, Sílvia Lourenço, Zéu Britto.\n\n",
+         "director":"André Pellenz\n\n",
+         "distributor":"Imagem Filmes",
+         "inPreSale":false,
+         "urlKey":"gosto-se-discute",
+         "isPlaying":true,
+         "countIsPlaying":282,
+         "premiereDate":{  
+            "localDate":"2017-11-09T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"09/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-28T18:26:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/gosto-se-discute?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=gosto-se-discute",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20057-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20057-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia",
+            "Drama"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=kVuypWTi91g ",
+               "embeddedUrl":"//www.youtube.com/embed/kVuypWTi91g"
+            }
+         ]
+      },
+      {  
+         "id":"20053",
+         "title":"Big Pai, Big Filho",
+         "originalTitle":"The Son of Bigfoot",
+         "countryOrigin":"França, Bélgica",
+         "priority":6,
+         "contentRating":"Livre",
+         "duration":"91",
+         "rating":0.0,
+         "synopsis":"Adam é um adolescente que precisa descobrir o mistério por trás do desaparecimento de seu pai. Para isto ele se aventura numa floresta tentando localizar o pai. Quando ele encontra-o descobre que ele é ninguém mais, ninguém menos, do que o lendário Pé Grande. Ele tem se escondido na floresta há anos para proteger a si e sua família de uma grande corporação que quer fazer experimentos científicos com ele. Pai e o filho começam a passar um tempo juntos e Adam logo descobrirá que ele também tem super poderes, além de sua imaginação.\n\n",
+         "cast":"Vozes de: Cinda Adams, Bob Barlen, Cal Brunker, Joey Camen, David Epstein, Christopher L. Parson\n\n",
+         "director":"Jeremy Degruson, Ben Stassen",
+         "distributor":"Imagem Filmes",
+         "inPreSale":false,
+         "urlKey":"big-pai-big-filho",
+         "isPlaying":true,
+         "countIsPlaying":259,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-28T13:34:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/big-pai-big-filho?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=big-pai-big-filho",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20053-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20053-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Animação",
+            "Comédia"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            },
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família",
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=cyuimS751do ",
+               "embeddedUrl":"//www.youtube.com/embed/cyuimS751do"
+            }
+         ]
+      },
+      {  
+         "id":"20052",
+         "title":"Depois daquela montanha",
+         "originalTitle":"The Mountain Between Us",
+         "countryOrigin":"Estados Unidos",
+         "priority":7,
+         "contentRating":"14 anos",
+         "duration":"103",
+         "rating":0.0,
+         "synopsis":"Perdidos após um trágico acidente de avião, dois estranhos precisam forjar uma conexão para sobreviver aos elementos extremos de uma remota montanha coberta de neve. Quando percebem que a ajuda não está vindo, eles embarcam em uma terrível viagem através de centenas de quilômetros de deserto, empurrando um ao outro para suportar essas condições, e uma atração inesperada surge entre eles. O filme é dirigido pelo indicado ao Oscar Hany Abu-Asad e estrelado por Kate Winslet (vencedora do Oscar) e Idris Elba.\n\n",
+         "cast":"Kate Winslet, Idris Elba, Beau Bridges, Dermot Mulroney",
+         "director":"Hany Abu-Assad",
+         "distributor":"20th Century Fox",
+         "inPreSale":false,
+         "urlKey":"depois-daquela-montanha",
+         "isPlaying":true,
+         "countIsPlaying":221,
+         "creationDate":"2017-09-28T13:29:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/depois-daquela-montanha?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=depois-daquela-montanha",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20052-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20052-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ação",
+            "Aventura"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=P4ZGL1c55mY ",
+               "embeddedUrl":"//www.youtube.com/embed/P4ZGL1c55mY"
+            }
+         ]
+      },
+      {  
+         "id":"19927",
+         "title":"Tempestade: Planeta em Fúria",
+         "originalTitle":"Geostorm",
+         "countryOrigin":"EUA",
+         "priority":8,
+         "contentRating":"12 anos",
+         "duration":"109",
+         "rating":0.0,
+         "synopsis":"Um criador de satélites precisa trabalhar em parceria com o não muito querido irmão para impedir que uma tempestade de proporções épicas destrua o planeta.\n",
+         "cast":"Gerard Butler, Katheryn Winnick, Abbie Cornish, Jim Sturgess, Ed Harris, Andy Garcia\n\n",
+         "director":"Dean Devlin\n\n",
+         "distributor":"Warner Bros",
+         "inPreSale":false,
+         "urlKey":"tempestade-planeta-em-furia",
+         "isPlaying":true,
+         "countIsPlaying":218,
+         "premiereDate":{  
+            "localDate":"2017-10-19T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"19/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-01T14:23:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/tempestade-planeta-em-furia?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=tempestade-planeta-em-furia",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19927-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19927-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ação"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=ssx6XPZ2s7E ",
+               "embeddedUrl":"//www.youtube.com/embed/ssx6XPZ2s7E"
+            }
+         ]
+      },
+      {  
+         "id":"20417",
+         "title":"A noiva",
+         "originalTitle":"Nevesta",
+         "countryOrigin":"Rússia",
+         "priority":9,
+         "contentRating":"12 anos",
+         "duration":"95",
+         "rating":0.0,
+         "synopsis":"Uma jovem mulher que viaja com seu futuro marido para a casa da família dele. Logo após chegar, ela percebe que a visita pode ter sido um erro terrível. Rodeada por pessoas estranhas, ela passa a ter visões horríveis à medida que a família do seu futuro esposo a prepara para uma tradicional cerimônia de casamento.",
+         "cast":"Vyacheslav Chepurchenko, Aleksandra Rebenok",
+         "director":"Svyatoslav Podgayevskiy",
+         "distributor":"Paris Filmes",
+         "inPreSale":false,
+         "urlKey":"a-noiva",
+         "isPlaying":true,
+         "countIsPlaying":214,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-10-09T15:27:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/a-noiva?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=a-noiva",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20417-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20417-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Terror"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=g87tPfyPgWI ",
+               "embeddedUrl":"//www.youtube.com/embed/g87tPfyPgWI"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=3KkQ1SMWo84 ",
+               "embeddedUrl":"//www.youtube.com/embed/3KkQ1SMWo84"
+            }
+         ]
+      },
+      {  
+         "id":"19404",
+         "title":"Dona Flor e Seus Dois Maridos",
+         "originalTitle":"Dona Flor e Seus Dois Maridos",
+         "countryOrigin":"Brasil",
+         "priority":10,
+         "contentRating":"16 anos",
+         "duration":"95",
+         "rating":0.0,
+         "synopsis":"No início da década de 1940, Dona Flor, sedutora professora de culinária em Salvador é casada com Vadinho, que só quer saber de farras e jogatina nas boates da cidade. A vida de abusos e noites em claro acaba por acarretar sua morte precoce, deixando Dona Flor viúva. Logo ela se casa de novo, com o recatado e pacífico farmacêutico da cidade, Dr. Teodoro. As saudades do antigo marido que, apesar dos defeitos era um ótimo amante, acabam fazendo com que ele retorne em espírito, visto somente pela viúva. Isso deixa a deixa em dúvida sobre o que fazer com os dois maridos que passam a dividir o seu leito.",
+         "cast":"Juliana Paes, Leandro Hassum, Marcelo Faria",
+         "director":"Pedro Vasconcelos",
+         "distributor":"Downtown Filmes",
+         "inPreSale":false,
+         "urlKey":"dona-flor-e-seus-dois-maridos",
+         "isPlaying":true,
+         "countIsPlaying":66,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-04-26T15:16:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/dona-flor-e-seus-dois-maridos?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=dona-flor-e-seus-dois-maridos",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19404-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19404-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia Dramática"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Culturais",
+               "background":"",
+               "color":""
+            },
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Culturais",
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=g1fbaBJ6x5w ",
+               "embeddedUrl":"//www.youtube.com/embed/g1fbaBJ6x5w"
+            }
+         ]
+      },
+      {  
+         "id":"19728",
+         "title":"Blade Runner 2049",
+         "originalTitle":"Blade runner 2049",
+         "countryOrigin":"EUA",
+         "priority":11,
+         "contentRating":"14 anos",
+         "duration":"163",
+         "rating":0.0,
+         "synopsis":"Trinta anos após os acontecimentos do primeiro filme, a humanidade está novamente ameaçada, e dessa vez o perigo pode ser ainda maior. Isso porque o novato oficial K (Ryan Gosling), desenterrou um terrível segredo que tem o potencial de mergulhar a sociedade no completo caos. A descoberta acaba levando-o a uma busca frenética por Rick Deckard (Harrison Ford), desaparecido há 30 anos.",
+         "cast":" Ryan Gosling; Harrison Ford; Ana de Armas",
+         "director":"Denis Villeneuve",
+         "distributor":"Sony Pictures",
+         "inPreSale":false,
+         "urlKey":"blade-runner-2049",
+         "isPlaying":true,
+         "countIsPlaying":30,
+         "premiereDate":{  
+            "localDate":"2017-10-05T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"05/10",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-07-18T19:38:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/blade-runner-2049?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=blade-runner-2049",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19728-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19728-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ficção"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=raenWOM5AYc ",
+               "embeddedUrl":"//www.youtube.com/embed/raenWOM5AYc"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=kTERF964cNo ",
+               "embeddedUrl":"//www.youtube.com/embed/kTERF964cNo"
+            }
+         ]
+      },
+      {  
+         "id":"20034",
+         "title":"A Morte te dá Parabéns",
+         "originalTitle":"Happy Death Day",
+         "countryOrigin":"EUA",
+         "priority":12,
+         "contentRating":"14 anos",
+         "duration":"94",
+         "rating":0.0,
+         "synopsis":"Uma mulher é assassinada e fica presa em um ciclo vicioso entre vida e morte. Ela deve resolver o mistério de seu próprio assassinato, ressuscitando várias vezes até descobrir quem foi o responsável pelo crime. Só quando ela compreender o que causou sua morte, pode conseguir escapar de seu destino trágico.",
+         "cast":"Jessica Rothe, Israel Broussard, Charles Aitken, Ruby Modine, Jason Bayle, Phi Vu, Donna Duplantier, GiGi Erneta\n\n",
+         "director":"Christopher Landon",
+         "distributor":"Universal Pictures",
+         "inPreSale":false,
+         "urlKey":"a-morte-te-da-parabens",
+         "isPlaying":true,
+         "countIsPlaying":83,
+         "premiereDate":{  
+            "localDate":"2017-10-12T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"12/10",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-27T16:47:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/a-morte-te-da-parabens?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=a-morte-te-da-parabens",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20034-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20034-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Terror"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=a-mMLuSXios ",
+               "embeddedUrl":"//www.youtube.com/embed/a-mMLuSXios"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=A2wrg36ug54 ",
+               "embeddedUrl":"//www.youtube.com/embed/A2wrg36ug54"
+            }
+         ]
+      },
+      {  
+         "id":"19453",
+         "title":"Pica-Pau",
+         "originalTitle":"Woody Woodpecker",
+         "countryOrigin":"EUA",
+         "priority":13,
+         "contentRating":"Livre",
+         "duration":"94",
+         "rating":0.0,
+         "synopsis":"O brincalhão e travesso Pica-Pau está metido em mais uma de suas divertidas brigas por território, e dessa vez os inimigos são o vigarista Lance Walte e sua namorada Brittany. ",
+         "cast":" Timothy Omundson, Thaila Ayala, Graham Verch ",
+         "director":"Alex Zamm",
+         "distributor":"Universal Pictures",
+         "inPreSale":false,
+         "urlKey":"pica-pau",
+         "isPlaying":true,
+         "countIsPlaying":176,
+         "premiereDate":{  
+            "localDate":"2017-10-05T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"05/10",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-05-03T18:34:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/pica-pau?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=pica-pau",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19453-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19453-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Animação",
+            "Comédia"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=O6PdJLuLqH0 ",
+               "embeddedUrl":"//www.youtube.com/embed/O6PdJLuLqH0"
+            }
+         ]
+      },
+      {  
+         "id":"19977",
+         "title":"Gabriel e a Montanha",
+         "originalTitle":"Gabriel e a Montanha",
+         "countryOrigin":"Brasil",
+         "priority":14,
+         "contentRating":"14 anos",
+         "duration":"131",
+         "rating":0.0,
+         "synopsis":"Antes de ir para a Universidade da Califórnia (UCLA), Gabriel, um jovem aventureiro e cheio de planos, decide viajar o mundo durante um ano. Até que ele vai para a África, onde quer chegar no topo do Monte Mulanje, Malawi, seu último destino.",
+         "cast":" João Pedro Zappa, Caroline Abras, Alex Alembe",
+         "director":"Fellipe Barbosa",
+         "distributor":"Pagu Pictures",
+         "inPreSale":false,
+         "urlKey":"gabriel-e-a-montanha",
+         "isPlaying":true,
+         "countIsPlaying":51,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-15T20:33:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/gabriel-e-a-montanha?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=gabriel-e-a-montanha",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19977-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19977-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Aventura",
+            "Drama"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=ZXR-8lkvZPE ",
+               "embeddedUrl":"//www.youtube.com/embed/ZXR-8lkvZPE"
+            }
+         ]
+      },
+      {  
+         "id":"19926",
+         "title":"As Aventuras do Capitão Cueca – O Filme",
+         "originalTitle":"Captain Underpants: The First Epic Movie",
+         "countryOrigin":"EUA",
+         "priority":15,
+         "contentRating":"Livre",
+         "duration":"89",
+         "rating":0.0,
+         "synopsis":"Duas crianças travessas hipnotizam o malvado diretor do colégio em que estudam e transformam-no no bondoso e elástico Capitão Cueca.\n\n",
+         "cast":"Vozes de: Kevin Hart, Ed Helms, Thomas Middleditch, Nick Kroll, Jordan Peele, Nancy Cartwright",
+         "director":"David Soren\n\n",
+         "distributor":"20th Century Fox",
+         "inPreSale":false,
+         "urlKey":"as-aventuras-do-capitao-cueca-o-filme",
+         "isPlaying":true,
+         "countIsPlaying":88,
+         "premiereDate":{  
+            "localDate":"2017-10-12T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"12/10",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-01T14:13:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/as-aventuras-do-capitao-cueca-o-filme?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=as-aventuras-do-capitao-cueca-o-filme",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19926-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19926-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Animação",
+            "Comédia"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=YAcV9ha8JeU ",
+               "embeddedUrl":"//www.youtube.com/embed/YAcV9ha8JeU"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=E1mXM1M91oQ ",
+               "embeddedUrl":"//www.youtube.com/embed/E1mXM1M91oQ"
+            }
+         ]
+      },
+      {  
+         "id":"20046",
+         "title":"Mark Felt - O Homem que Derrubou a Casa Branca",
+         "originalTitle":"Mark Felt: The Man Who Brought Down the White House",
+         "countryOrigin":"EUA",
+         "priority":16,
+         "contentRating":"10 anos",
+         "duration":"103",
+         "rating":0.0,
+         "synopsis":"Liam Neeson será Felt num suspense de espionagem sobre um dos maiores escândalos da história, o Watergate.\nO ator viverá o notório Garganta Profunda (Deep Throat), codinome pelo qual ficou conhecido o informante do caso, que levou à queda do presidente americano Richard Nixon.\nSua verdadeira identidade permaneceu em segredo por mais de 30 anos até 2005, quando o agente especial Mark Felt, que era vice-diretor do FBI na época do escândalo, revelou ser o informante.\nA versão ficcionalizada da históra acompanhará a vida pessoal e profissional de Felt, um homem brilhante e intransigente, que arriscou e, no final das contas, sacrificou tudo – sua família, sua carreira e sua liberdade – em nome da justiça.",
+         "cast":"Liam Neeson, Diane Lane, Maika Monroe, Michael C. Hall, Wendi McLendon-Covey, Ike Barinholtz\n\n",
+         "director":"Peter Landesman\n\n",
+         "distributor":"Diamond Films",
+         "inPreSale":false,
+         "urlKey":"mark-felt-o-homem-que-derrubou-a-casa-branca",
+         "isPlaying":true,
+         "countIsPlaying":19,
+         "premiereDate":{  
+            "localDate":"2017-10-26T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"26/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-27T18:43:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/mark-felt-o-homem-que-derrubou-a-casa-branca?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=mark-felt-o-homem-que-derrubou-a-casa-branca",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20046-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20046-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Culturais",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Culturais"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=yrg5wNQ1_0A ",
+               "embeddedUrl":"//www.youtube.com/embed/yrg5wNQ1_0A"
+            }
+         ]
+      },
+      {  
+         "id":"19934",
+         "title":"Além da Morte",
+         "originalTitle":"Flatliner",
+         "countryOrigin":"EUA",
+         "priority":18,
+         "contentRating":"14 anos",
+         "duration":"108",
+         "rating":0.0,
+         "synopsis":"Cinco estudantes médicos iniciam uma experiência para descobrir o que há depois da morte, esperando conseguir renome dentro da área. Ao parar seus corações por curtos períodos de tempo, eles disparam uma experiência de quase-morte. Mas logo eles são forçados a confrontar os pecados de seus passados enquanto a investigação se torna perigosa e paranormal.",
+         "cast":"Nina Dobrev, Kiersey Clemons, Ellen Page, James Norton, Diego Luna, Kiefer Sutherland, Charlotte McKinney, Beau Mirchoff\n",
+         "director":"Niels Arden Oplev",
+         "distributor":"Sony Pictures",
+         "inPreSale":false,
+         "urlKey":"alem-da-morte",
+         "isPlaying":true,
+         "countIsPlaying":13,
+         "premiereDate":{  
+            "localDate":"2017-10-19T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"19/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-01T14:38:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/alem-da-morte?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=alem-da-morte",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19934-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19934-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Terror"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=coGwpkdZXJ0 ",
+               "embeddedUrl":"//www.youtube.com/embed/coGwpkdZXJ0"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=VAQfGHI-i6M ",
+               "embeddedUrl":"//www.youtube.com/embed/VAQfGHI-i6M"
+            }
+         ]
+      },
+      {  
+         "id":"19925",
+         "title":"Como se Tornar o Pior Aluno da Escola",
+         "originalTitle":"Como se Tornar o Pior Aluno da Escola",
+         "countryOrigin":"Brasil",
+         "priority":19,
+         "contentRating":"14 anos",
+         "duration":"103",
+         "rating":0.0,
+         "synopsis":"Como se Tornar o Pior Aluno da Escola’ traz os jovens Bruno Munhoz e Daniel Pimentel como os estudantes Bernardo e Pedro, respectivamente, que se veem divididos entre as obrigações escolares, a necessidade de tirar boas notas e ter bom comportamento, e a falta de propósito em cumprir todas as normas de uma escola que adota medidas cada vez mais politicamente corretas graças ao diretor Ademar (Carlos Villagrán). Após momentos de frustração, Pedro encontra no banheiro do colégio um diário contaminado com dicas para instaurar o caos na escola sem ser notado. O caderno levará os garotos para uma jornada que pode despertá-los ou arruiná-los para sempre.",
+         "cast":"Danilo Gentili, Carlos Villagrán, Bruno Munhoz, Daniel Pimentel",
+         "director":"Fabricio Bittar",
+         "distributor":"Downtown Filmes",
+         "inPreSale":false,
+         "urlKey":"como-se-tornar-o-pior-aluno-da-escola",
+         "isPlaying":true,
+         "countIsPlaying":139,
+         "premiereDate":{  
+            "localDate":"2017-10-12T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"12/10",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-01T14:06:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/como-se-tornar-o-pior-aluno-da-escola?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=como-se-tornar-o-pior-aluno-da-escola",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19925-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19925-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=ARlbVXr3Gk8 ",
+               "embeddedUrl":"//www.youtube.com/embed/ARlbVXr3Gk8"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=UixCWtjQDig ",
+               "embeddedUrl":"//www.youtube.com/embed/UixCWtjQDig"
+            }
+         ]
+      },
+      {  
+         "id":"14234",
+         "title":"A comédia divina",
+         "originalTitle":"A comédia divina",
+         "countryOrigin":"Brasil",
+         "priority":20,
+         "contentRating":"14 anos",
+         "duration":"98",
+         "rating":0.0,
+         "synopsis":"Abalado por sua baixa popularidade, o Diabo resolve vir à Terra fundar sua própria igreja. Os pecados são virtudes e devem ser estimulados. Utilizando a televisão, o Coisa Ruim potencializa seu poder de sedução para difundir a nova religião. Raquel, uma jovem e ambiciosa jornalista, é uma das primeiras a cair sob seu domínio. Baseado no conto “A igreja do Diabo”, de Machado de Assis.",
+         "cast":"Murilo Rosa, Monica Iozzi, Dalton Vigh, Juliana Alves, Thiago Mendonça",
+         "director":"Toni Venturi",
+         "distributor":"Imagem Filmes",
+         "inPreSale":false,
+         "urlKey":"a-comedia-divina",
+         "isPlaying":true,
+         "countIsPlaying":16,
+         "premiereDate":{  
+            "localDate":"2017-10-19T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"19/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2016-04-06T15:01:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/a-comedia-divina?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=a-comedia-divina",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14234-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14234-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=ViRNh3DtA5o ",
+               "embeddedUrl":"//www.youtube.com/embed/ViRNh3DtA5o"
+            }
+         ]
+      },
+      {  
+         "id":"13982",
+         "title":"O estado das coisas",
+         "originalTitle":"Brad’s Status",
+         "countryOrigin":"Estados Unidos",
+         "priority":22,
+         "contentRating":"12 anos",
+         "duration":"101",
+         "rating":0.0,
+         "synopsis":"Brad Sloan tem um emprego estável, uma casa confortável em Sacramento, uma esposa amorosa e um filho talentoso, com quem vai visitar possíveis universidades. Mas Brad não consegue parar de se comparar com antigos companheiros que encontraram riqueza e fama trabalhando no mercado financeiro, em filmes de Hollywood ou no mundo da política. Brad deveria centrar suas forças em ajudar o filho em sua transição para o mundo do ensino superior, mas só consegue pensar em se exibir com aquilo que nem tem ou ansiar pela aprovação de seus velhos amigos. Uma comédia com Ben Stiller. Toronto 2017.",
+         "cast":"Ben Stiller, Luke Wilson, Jermaine Clement, Austin Abrams, Michael Sheen",
+         "director":"Mike White",
+         "distributor":"Imagem Filmes",
+         "inPreSale":false,
+         "urlKey":"o-estado-das-coisas",
+         "isPlaying":true,
+         "countIsPlaying":52,
+         "premiereDate":{  
+            "localDate":"2017-10-26T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"26/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2016-03-08T19:51:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/o-estado-das-coisas?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=o-estado-das-coisas",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/13982-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/13982-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=HhMrDCnGfpE ",
+               "embeddedUrl":"//www.youtube.com/embed/HhMrDCnGfpE"
+            }
+         ]
+      },
+      {  
+         "id":"19843",
+         "title":"Polícia Federal - A lei é para todos",
+         "originalTitle":"Polícia Federal - A lei é para todos",
+         "countryOrigin":"Brasil",
+         "priority":23,
+         "contentRating":"12 anos",
+         "duration":"110",
+         "rating":0.0,
+         "synopsis":"Inspirado em fatos reais sobre a Operação Lava-Jato, uma série de investigações sobre a corrupção no Brasil, desde o início do processo até a condução coercitiva do ex-presidente Lula. Marcelo Serrado interpreta o juiz Sérgio Moro.\n",
+         "cast":"Marcelo Serrado, Antonio Calloni, Flávia Alessandra",
+         "director":"Marcelo Antunez",
+         "distributor":"Downtown Filmes",
+         "inPreSale":false,
+         "urlKey":"policia-federal-a-lei-e-para-todos",
+         "isPlaying":true,
+         "countIsPlaying":91,
+         "premiereDate":{  
+            "localDate":"2017-09-07T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"07/09",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-08-28T19:23:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/policia-federal-a-lei-e-para-todos?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=policia-federal-a-lei-e-para-todos",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19843-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19843-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama",
+            "Policial"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=kUP0MLsvpOY ",
+               "embeddedUrl":"//www.youtube.com/embed/kUP0MLsvpOY"
+            }
+         ]
+      },
+      {  
+         "id":"14331",
+         "title":"Duas de mim",
+         "originalTitle":"Duas de mim",
+         "countryOrigin":"Brasil",
+         "priority":25,
+         "contentRating":"12 anos",
+         "duration":"82",
+         "rating":0.0,
+         "synopsis":"Suellen é uma cozinheira que trabalha duro para manter sozinha o filho pequeno, a irmã mais nova e a mãe. Um dia, os seus sonhos viram realidade: ela se divide em duas. Sua cópia, idêntica fisicamente, tem diferenças de personalidade, sendo muito mais extrovertida e corajosa. A ideia seria dividir as tarefas com a comparsa, mas logo Suellen percebe que a sósia tem planos próprios, e decide passar a perna na original.",
+         "cast":"Thalita Carauta",
+         "director":"Cininha de Paula",
+         "distributor":"Downtown Filmes",
+         "inPreSale":false,
+         "urlKey":"duas-de-mim",
+         "isPlaying":true,
+         "countIsPlaying":37,
+         "premiereDate":{  
+            "localDate":"2017-09-28T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"28/09",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2016-04-12T13:26:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/duas-de-mim?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=duas-de-mim",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14331-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14331-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=PN8eIuyco64 ",
+               "embeddedUrl":"//www.youtube.com/embed/PN8eIuyco64"
+            }
+         ]
+      },
+      {  
+         "id":"20039",
+         "title":"Bom comportamento",
+         "originalTitle":"Good Time",
+         "countryOrigin":"Estados Unidos",
+         "priority":29,
+         "contentRating":"16 anos",
+         "duration":"101",
+         "rating":0.0,
+         "synopsis":"Após um malsucedido assalto a banco, Constantine Nikas vê seu irmão mais novo ser preso e embarca em uma odisseia no submundo da cidade em que vive, numa tentativa cada vez mais desesperada - e perigosa - de tirar seu irmão da prisão. Ao longo de uma noite repleta de adrenalina, Constantine mergulha em uma onda de violência e caos enquanto corre contra o relógio para salvar seu irmão e ele mesmo, sabendo que suas vidas estão por um fio. Com Robert Pattinson (Crepúsculo, Cosmópolis). Exibido na competição oficial do Festival de Cannes 2017.",
+         "cast":"Robert Pattinson, Benny Safdie, Jennifer Jason Leigh, Buddy Duress, Barkhad Abd",
+         "director":"Josh Safdie, Ben Safdie",
+         "distributor":"",
+         "inPreSale":false,
+         "urlKey":"bom-comportamento",
+         "isPlaying":true,
+         "countIsPlaying":3,
+         "premiereDate":{  
+            "localDate":"2017-10-19T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"19/10",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-27T18:04:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/bom-comportamento?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=bom-comportamento",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20039-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20039-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Aventura",
+            "Drama"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=51eSgsmeCUU ",
+               "embeddedUrl":"//www.youtube.com/embed/51eSgsmeCUU"
+            }
+         ]
+      },
+      {  
+         "id":"19990",
+         "title":"Historietas assombradas - O filme",
+         "originalTitle":"Historietas assombradas - O filme",
+         "countryOrigin":"Brasil",
+         "priority":30,
+         "contentRating":"Livre",
+         "duration":"90",
+         "rating":0.0,
+         "synopsis":"Numa noite muito escura, um estranho casal carrega uma criança, fugindo de outros seres estranhos. Pepe, o pequeno filho deles, é a possibilidade de salvação para uma espécie em extinção. Com muita tristeza, os pais deixam o menino na porta de Vó, uma feiticeira que fabrica artigos mágicos para vender pela internet. Pepe cresce fazendo muita confusão e se sentindo o máximo. Aos 11 anos, ele descobre que foi adotado e resolve procurar seus pais. Acompanhado de seus dois melhores amigos, Marilu e Gastón, embarca em uma grande aventura. Versão para o cinema da série de mesmo nome.",
+         "cast":"Charles Emmanuel, Nadia Carvalho,Iara Riça.",
+         "director":"Victor-Hugo Borges",
+         "distributor":"Vitrine Filmes",
+         "inPreSale":false,
+         "urlKey":"historietas-assombradas-o-filme",
+         "isPlaying":true,
+         "countIsPlaying":130,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-19T16:10:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/historietas-assombradas-o-filme?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=historietas-assombradas-o-filme",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19990-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19990-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Animação"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            },
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família",
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=BR5YoSAQENU ",
+               "embeddedUrl":"//www.youtube.com/embed/BR5YoSAQENU"
+            }
+         ]
+      },
+      {  
+         "id":"19981",
+         "title":"Pokémon O Filme: Eu Escolho Você!",
+         "originalTitle":"Gekijouban Poketto monsutâ: Kimi ni kimeta!",
+         "countryOrigin":"Japão",
+         "priority":40,
+         "contentRating":"Livre",
+         "duration":"95",
+         "rating":0.0,
+         "synopsis":"O enredo do filme conta a história de como Satoshi e Pikachu se conheceram. Pikachu não era cooperativo em direção a Satoshi, mas Satoshi só queria ser amigo de Pikachu. No dia em que partiram da cidade de Masara, ambos viram um Houou voando e fez um voto para algum dia ir e conhecê-lo.",
+         "cast":"",
+         "director":"Kunihiko Yuyama",
+         "distributor":"",
+         "inPreSale":true,
+         "urlKey":"pokemon-o-filme-eu-escolho-voce",
+         "isPlaying":true,
+         "countIsPlaying":116,
+         "premiereDate":{  
+            "localDate":"2017-11-05T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"domingo",
+            "dayAndMonth":"05/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-15T21:12:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/pokemon-o-filme-eu-escolho-voce?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=pokemon-o-filme-eu-escolho-voce",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19981-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19981-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Desenho"
+         ],
+         "completeTags":[  
+            {  
+               "name":"Família",
+               "background":"",
+               "color":""
+            },
+            {  
+               "name":"Em Alta",
+               "background":"",
+               "color":""
+            }
+         ],
+         "tags":[  
+            "Família",
+            "Em Alta"
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=MZ7pk45NXBY ",
+               "embeddedUrl":"//www.youtube.com/embed/MZ7pk45NXBY"
+            }
+         ]
+      },
+      {  
+         "id":"6591",
+         "title":"Ballet Bolshoi - O Quebra Nozes",
+         "originalTitle":"Ballet Bolshoi - O Quebra Nozes",
+         "countryOrigin":"",
+         "priority":41,
+         "contentRating":"10 anos",
+         "duration":"135",
+         "rating":0.0,
+         "synopsis":"Quando o relógio bate meia-noite na véspera de natal, o boneco de madeira de Marie ganha vida e se transforma num príncipe! Acompanhados de seus outros brinquedos que também ganham vida, Marie e seu príncipe embarcam em uma aventura inesquecível. ",
+         "cast":"Bailarinos do Bolshoi ",
+         "director":"Alexei Ratmansky ",
+         "distributor":"",
+         "inPreSale":false,
+         "urlKey":"ballet-bolshoi-o-quebra-nozes",
+         "isPlaying":true,
+         "countIsPlaying":11,
+         "creationDate":"2014-08-19T20:44:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/ballet-bolshoi-o-quebra-nozes?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=ballet-bolshoi-o-quebra-nozes",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/6591-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/6591-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ballet"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+
+         ]
+      },
+      {  
+         "id":"20335",
+         "title":"Victoria e Abdul: o confidente da rainha",
+         "originalTitle":"Victoria and Abdul",
+         "countryOrigin":"Reino Unido / Estados Unidos",
+         "priority":3218,
+         "contentRating":"12 anos",
+         "duration":"111",
+         "rating":0.0,
+         "synopsis":"Em 1887, o indiano Abdul é escolhido por seu país para apresentar uma moeda criada em homenagem à Rainha da Inglaterra, em uma cerimônia em Londres com a presença da própria monarca. Ele deixa sua cidade natal para trás em sua tarefa simples, porém intimidadora. Surpreendentemente, a rainha Vitória se apega ao jovem de maneira maternal e solicita que ele permaneça como seu conselheiro. A fascinante e verdadeira história de amizade entre um jovem indiano sem dinheiro e uma poderosa monarca que governou cerca de um quarto do planeta. Do diretor Stephen Frears. Toronto e Veneza 2017.",
+         "cast":"Michael Gambon, Olivia Williams, Judi Dench, Eddie Izzard, Ali Fazal",
+         "director":"Stephen Frears",
+         "distributor":"Universal Pictures",
+         "inPreSale":false,
+         "urlKey":"victoria-e-abdul-o-confidente-da-rainha",
+         "isPlaying":true,
+         "countIsPlaying":19,
+         "premiereDate":{  
+            "localDate":"2017-11-16T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"16/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-29T18:55:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/victoria-e-abdul-o-confidente-da-rainha?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=victoria-e-abdul-o-confidente-da-rainha",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20335-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20335-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=ZvXAUFOt1Lo ",
+               "embeddedUrl":"//www.youtube.com/embed/ZvXAUFOt1Lo"
+            }
+         ]
+      },
+      {  
+         "id":"20615",
+         "title":"Contatos Imediatos do Terceiro Grau",
+         "originalTitle":"Close Encounters of the Third Kind",
+         "countryOrigin":"USA",
+         "priority":32000,
+         "contentRating":"Livre",
+         "duration":"137",
+         "rating":0.0,
+         "synopsis":"O operário da rede de cabos Roy Neary (Richard Dreyfuss), juntamente com outras pessoas, experimenta um contato imediato de terceiro grau, testemunhando a presença de extra-terrestres no céu. Após o evento que mudou a sua vida, a inexplicável visão de uma estranha imagem como a de uma montanha o perturba constantemente. Para o desespero de sua família, ele fica obcecado em descobrir o que aquela visão representa. Enquanto isso, bizarros acontecimentos estão ocorrendo ao redor do mundo. Agentes do governo passam a ter contatos imediatos de segundo grau descobrindo evidências físicas de visitas extra-terrestres na forma de uma aeronave militar da segunda guerra mundial e de um navio militar desaparecido há décadas. Roy continua a buscar a visão em uma área remota onde ele e os agentes seguem pistas que os levam ao local dos contatos imediatos de terceiro grau.",
+         "cast":"Melinda Dillon, Richard Dreyfuss, Teri Garr ",
+         "director":"Steven Spielberg",
+         "distributor":"",
+         "inPreSale":false,
+         "urlKey":"contatos-imediatos-do-terceiro-grau",
+         "isPlaying":true,
+         "countIsPlaying":22,
+         "creationDate":"2017-11-01T11:50:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/contatos-imediatos-do-terceiro-grau?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=contatos-imediatos-do-terceiro-grau",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20615-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20615-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+
+         ]
+      },
+      {  
+         "id":"20058",
+         "title":"Invisível",
+         "originalTitle":"Invisible",
+         "countryOrigin":"Argentina / Brasil / Uruguai /",
+         "priority":32000,
+         "contentRating":"16 anos",
+         "duration":"90",
+         "rating":0.0,
+         "synopsis":"Ely tem 17 anos e mora no bairro da Boca em Buenos Aires. Ela cursa o último ano do ensino médio e trabalha em uma pet shop para completar a renda familiar. Ao descobrir que está grávida de Raúl, dono da pet shop, seu mundo interno colapsa. Enquanto tenta manter su­­­­a rotina diária como se nada tivesse acontecido, ela é tomada pelo medo e a angústia. A sociedade que a pressiona e o estado de saúde frágil da sua mãe a isolam e a obrigam a amadurecer precocemente. Tomar a decisão que mudará sua vida para sempre lhe permitirá ter um novo começo. Mostra Horizontes, Festival de Veneza 2017.",
+         "cast":"Mora Arenillas, Diego Cremonesi, Mara Bestelli, Agustina Fernandez, Paula Fernandez Mbarak",
+         "director":"Pablo Giorgelli",
+         "distributor":"",
+         "inPreSale":false,
+         "urlKey":"invisivel",
+         "isPlaying":true,
+         "countIsPlaying":18,
+         "premiereDate":{  
+            "localDate":"2017-11-09T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"09/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-28T18:29:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/invisivel?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=invisivel",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20058-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20058-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=1GKVRDRvI4o ",
+               "embeddedUrl":"//www.youtube.com/embed/1GKVRDRvI4o"
+            }
+         ]
+      },
+      {  
+         "id":"19970",
+         "title":"Mulholland Drive: Cidade dos Sonhos",
+         "originalTitle":"Mulholland Dr.",
+         "countryOrigin":"EUA, França",
+         "priority":32000,
+         "contentRating":"14 anos",
+         "duration":"146",
+         "rating":0.0,
+         "synopsis":"Quando a morena Rita, machucada e amnésica, encontra a loira aspirante a atriz Barbie Betty, ambas iniciam uma jornada em busca da verdade por trás da identidade de Rita. Ao longo de Mulholland Drive, nada é o que parece. Ambientada no universo irreal de Los Angeles, David Lynch explora a natureza esquizofrênica da cidade numa mistura desconfortável de inocência e corrupção, amor e solidão, beleza e depravação. Lynch constrói habilmente um enigma hipnotizante, impulsionando-nos através de um misterioso labirinto de experiências sensuais até alcançarmos o cruzamento onde sonhos e pesadelos se encontram.",
+         "cast":"Naomi Watts, Laura Harring, Jeanne Bates, Robert Forster, Brent Briscoe, Justin Theroux, Michael J. Anderson.",
+         "director":"David Lynch",
+         "distributor":"Zeta Filmes",
+         "inPreSale":false,
+         "urlKey":"mulholland-drive-cidade-dos-sonhos",
+         "isPlaying":true,
+         "countIsPlaying":6,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-11T14:03:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/mulholland-drive-cidade-dos-sonhos?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=mulholland-drive-cidade-dos-sonhos",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19970-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19970-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama",
+            "Fantasia",
+            "Suspense"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=adCEuXANKbc ",
+               "embeddedUrl":"//www.youtube.com/embed/adCEuXANKbc"
+            }
+         ]
+      },
+      {  
+         "id":"20075",
+         "title":"Pai em Dose Dupla 2",
+         "originalTitle":"Daddy´s Home",
+         "countryOrigin":"EUA",
+         "priority":32000,
+         "contentRating":"Livre",
+         "duration":"108",
+         "rating":0.0,
+         "synopsis":"Brad (Will Ferrell) é um pacífico executivo e padrasto dos dois filhos de Sarah (Linda Cardellini). Após enfrentar uma verdadeira batalha pelo carinho das crianças com o pai biológico delas, Dusty (Mark Wahlberg), ele precisará lidar com outro problema na sequência `Pai em Dose Dupla 2´: a rivalidade entre seu pai (John Lithgow) e o avô paterno dos enteados (Mel Gibson).\n",
+         "cast":"Linda Cardellini, Mel Gibson, Mark Wahlberg, Will Ferrell, John Lithgow\n\n",
+         "director":"Sean Anders\n\n",
+         "distributor":"Paramount",
+         "inPreSale":true,
+         "urlKey":"pai-em-dose-dupla-2",
+         "isPlaying":true,
+         "countIsPlaying":182,
+         "premiereDate":{  
+            "localDate":"2017-11-23T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"23/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-28T19:51:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/pai-em-dose-dupla-2?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=pai-em-dose-dupla-2",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20075-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20075-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Comédia"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=I9dKSXJfWb4 ",
+               "embeddedUrl":"//www.youtube.com/embed/I9dKSXJfWb4"
+            },
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=AYKA8z2kKx0 ",
+               "embeddedUrl":"//www.youtube.com/embed/AYKA8z2kKx0"
+            }
+         ]
+      },
+      {  
+         "id":"20054",
+         "title":"Terra selvagem",
+         "originalTitle":"Wind River",
+         "countryOrigin":"Estados Unidos",
+         "priority":32000,
+         "contentRating":"16 anos",
+         "duration":"110",
+         "rating":0.0,
+         "synopsis":"Quando o guarda florestal Coby Lambert encontra um corpo na região selvagem da reserva indígena de Wind River, o FBI envia a agente novata Jane Banner para investigar o caso. Sem saber como lidar com o frio e a neve do opressivo inverno do Wyoming, Banner rapidamente escala Lambert como seu guia em uma comunidade devastada por drogas e violência. O filme marca a estreia na direção de Taylor Sheridan, premiado roteirista de filmes como A qualquer custo. Com Jeremy Renner. Prêmio de melhor direção na mostra Um Certo Olhar no Festival de Cannes 2017.",
+         "cast":"Jeremy Renner, Elizabeth Olsen, Jon Bernthal",
+         "director":"Taylor Sheridan",
+         "distributor":"California Filmes",
+         "inPreSale":false,
+         "urlKey":"terra-selvagem",
+         "isPlaying":true,
+         "countIsPlaying":44,
+         "premiereDate":{  
+            "localDate":"2017-11-02T02:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"quinta-feira",
+            "dayAndMonth":"02/11",
+            "hour":"02:00",
+            "year":"2017"
+         },
+         "creationDate":"2017-09-28T14:32:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/terra-selvagem?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=terra-selvagem",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20054-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20054-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Ação",
+            "Drama",
+            "Suspense"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=QaG84z41hGw ",
+               "embeddedUrl":"//www.youtube.com/embed/QaG84z41hGw"
+            }
+         ]
+      },
+      {  
+         "id":"14430",
+         "title":"Titanic",
+         "originalTitle":"Titanic",
+         "countryOrigin":"EUA",
+         "priority":32000,
+         "contentRating":"12 anos",
+         "duration":"194",
+         "rating":5.0,
+         "synopsis":"Jack Dawson é um jovem aventureiro que, na mesa de jogo, ganha uma passagem para a primeira viagem do transatlântico Titanic. Trata-se de um luxuoso e imponente navio, anunciado na época como inafundável, que parte para os Estados Unidos. Nele está também Rose DeWitt Bukater (Kate Winslet), a jovem noiva de Caledon Hockley (Billy Zane). Rose está descontente com sua vida, já que sente-se sufocada pelos costumes da elite e não ama Caledon. Entretanto, ela precisa se casar com ele para manter o bom nome da família, que está falida. Um dia, desesperada, Rose ameaça se atirar do Titanic, mas Jack consegue demovê-la da ideia. Pelo ato ele é convidado a jantar na primeira classe, onde começa a se tornar mais próximo de Rose. Logo eles se apaixonam, despertando a fúria de Caledon. A situação fica ainda mais complicada quando o Titanic se choca com um iceberg, provocando algo que ninguém imaginava ser possível: o naufrágio do navio.",
+         "cast":"Kate Winslet, Leonardo DiCaprio, Bernard Fox, Bernard Hill, Bill Paxton, Billy Zane",
+         "director":"James Cameron",
+         "distributor":"",
+         "inPreSale":false,
+         "urlKey":"titanic",
+         "isPlaying":true,
+         "countIsPlaying":24,
+         "premiereDate":{  
+            "localDate":"2017-03-17T03:00:00+00:00",
+            "isToday":false,
+            "dayOfWeek":"sexta-feira",
+            "dayAndMonth":"17/03",
+            "hour":"03:00",
+            "year":"2017"
+         },
+         "creationDate":"2016-04-25T15:10:00Z",
+         "city":"Fortaleza",
+         "siteURL":"https://www.ingresso.com/fortaleza/0/filmes/titanic?utm_source=api&utm_medium=link-filme&utm_campaign=0&utm_content=titanic",
+         "images":[  
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14430-cartaz.jpg",
+               "type":"PosterPortrait"
+            },
+            {  
+               "url":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14430-destaque.jpg",
+               "type":"PosterHorizontal"
+            }
+         ],
+         "genres":[  
+            "Drama",
+            "Romance"
+         ],
+         "completeTags":[  
+
+         ],
+         "tags":[  
+
+         ],
+         "trailers":[  
+            {  
+               "type":"Youtube",
+               "url":"https://www.youtube.com/watch?v=4jGEN01mW84 ",
+               "embeddedUrl":"//www.youtube.com/embed/4jGEN01mW84"
+            }
+         ]
+      }
+   ],
+   "count":32
+}
