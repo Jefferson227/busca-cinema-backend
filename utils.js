@@ -80,12 +80,11 @@ let utils = () => {
           .diff(moment(), 'days', true)
         )
       : 0;
-    // console.log(dateFilter);
+
     dateFilter =
       dateFilter > 0
         ? `?datefilter=${dateFilter}`
         : '';
-    // console.log(dateFilter);
 
     var options = {
       uri: `${baseUrl}/showtimes/theatre/theatre/${theaterId}/${dateFilter}`,
@@ -94,7 +93,6 @@ let utils = () => {
       }
     };
 
-    // console.log(options.uri);
     return requestPromise(options)
       .then(($) => {
         let arraySessions = [];
@@ -108,27 +106,29 @@ let utils = () => {
               .find('.rating')
               .text();
 
-          arraySessions.push({
-            movieId:
-              $(session)
-                .find('h2')
-                .find('a')
-                .attr('href')
-                .split('/')[3],
-            movie:
-              $(session)
-                .find('h2')
-                .find('a')
-                .text(),
-            rating: extractRating(ratingGenreRuntime),
-            genre: extractGenre(ratingGenreRuntime),
-            runtime: extractRuntime(ratingGenreRuntime),
-            showtimes:
-              getShowtimes(
+          if ($(session).find('h2').find('a').length){
+            arraySessions.push({
+              movieId:
                 $(session)
-                  .find('.showoptions')
-              )
-          });
+                  .find('h2')
+                  .find('a')
+                  .attr('href')
+                  .split('/')[3],
+              movie:
+                $(session)
+                  .find('h2')
+                  .find('a')
+                  .text(),
+              rating: extractRating(ratingGenreRuntime),
+              genre: extractGenre(ratingGenreRuntime),
+              runtime: extractRuntime(ratingGenreRuntime),
+              showtimes:
+                getShowtimes(
+                  $(session)
+                    .find('.showoptions')
+                )
+            });
+          }
         });
 
         function extractRating(str) {
