@@ -36,9 +36,9 @@ app.get('/theaters/:cityId', function (req, res) {
       });
 });
 
-app.get('/sessions/:theaterId', function (req, res) {
+app.get('/sessions/:theaterId/:date', function (req, res) {
   utils
-    .getSessionsByTheater(req.params.theaterId)
+    .getSessionsByTheater(req.params.theaterId, req.params.date)
       .then((r) => {
         res.send(r);
       })

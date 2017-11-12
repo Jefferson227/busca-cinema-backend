@@ -2,6 +2,7 @@ let utils = () => {
   var request = require('request');
   var requestPromise = require('request-promise');
   var cheerio = require('cheerio');
+  var moment = require('moment');
   var baseUrl = 'https://www.tribute.ca';
 
   let getMovies = () => {
@@ -70,14 +71,30 @@ let utils = () => {
       });
   }
 
-  let getSessionsByTheater = (theaterId) => {
+  let getSessionsByTheater = (theaterId, date) => {
+    let dateFilter =
+      date
+      ?
+        Math.ceil(
+          moment(date, 'YYYY-MM-DD')
+          .diff(moment(), 'days', true)
+        )
+      : 0;
+    // console.log(dateFilter);
+    dateFilter =
+      dateFilter > 0
+        ? `?datefilter=${dateFilter}`
+        : '';
+    // console.log(dateFilter);
+
     var options = {
-      uri: `${baseUrl}/showtimes/theatre/theatre/${theaterId}`,
+      uri: `${baseUrl}/showtimes/theatre/theatre/${theaterId}/${dateFilter}`,
       transform: function (body) {
           return cheerio.load(body);
       }
     };
 
+    // console.log(options.uri);
     return requestPromise(options)
       .then(($) => {
         let arraySessions = [];
