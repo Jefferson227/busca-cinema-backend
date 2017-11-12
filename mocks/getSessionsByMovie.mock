@@ -1,0 +1,188 @@
+// Endpoint: /movie/:movieId/theaters/:city/:date
+[
+   {
+      "movieId":"122937",
+      "movie":"A Bad Moms Christmas",
+      "rating":"14A",
+      "genre":" Comedy",
+      "runtime":" 101 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "2:00pm",
+               "4:35pm",
+               "5:05pm",
+               "7:10pm",
+               "7:40pm",
+               "9:45pm"
+            ]
+         },
+         {
+            "type":"VIP Showtimes ",
+            "times":[
+               "2:30pm",
+               "10:15pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"122825",
+      "movie":"Blade Runner 2049",
+      "rating":"14A",
+      "genre":" Sci-Fi/Fantasy",
+      "runtime":" 163 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "12:10pm",
+               "3:45pm"
+            ]
+         },
+         {
+            "type":"3D Showtimes  (CC / DVS)",
+            "times":[
+               "6:30pm",
+               "10:10pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"124026",
+      "movie":"Daddy's Home 2",
+      "rating":"PG",
+      "genre":" Comedy",
+      "runtime":" 100 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "12:00pm",
+               "2:30pm",
+               "5:00pm",
+               "7:00pm",
+               "9:35pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"119133",
+      "movie":"Geostorm",
+      "rating":"PG",
+      "genre":"N/A",
+      "runtime":" 109 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "7:20pm",
+               "10:05pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"122545",
+      "movie":"Jigsaw",
+      "rating":"18A",
+      "genre":" Horror",
+      "runtime":" 91 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "2:35pm",
+               "10:15pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"122874",
+      "movie":"The LEGO NINJAGO Movie",
+      "rating":"G",
+      "genre":" Animation",
+      "runtime":" 101 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "1:30pm",
+               "4:00pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"122564",
+      "movie":"Murder on the Orient Express",
+      "rating":"PG",
+      "genre":" Thriller",
+      "runtime":" 114 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "1:20pm",
+               "4:10pm",
+               "7:35pm",
+               "10:25pm"
+            ]
+         }
+      ]
+   },
+   {
+      "movieId":"118558",
+      "movie":"Thor: Ragnarok",
+      "rating":"PG",
+      "genre":" Action/Adventure",
+      "runtime":" 130 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC / DVS)",
+            "times":[
+               "3:40pm"
+            ]
+         },
+         {
+            "type":"3D Showtimes  (CC / DVS)",
+            "times":[
+               "12:35pm",
+               "6:45pm",
+               "9:50pm"
+            ]
+         },
+         {
+            "type":"3D / Ultra AVX Showtimes ",
+            "times":[
+               "1:15pm",
+               "4:20pm",
+               "7:25pm",
+               "10:30pm"
+            ]
+         },
+         {
+            "type":"VIP Showtimes ",
+            "times":[
+               "4:15pm"
+            ]
+         },
+         {
+            "type":"VIP / 3D Showtimes ",
+            "times":[
+               "12:00pm",
+               "1:00pm",
+               "3:15pm",
+               "6:30pm",
+               "7:30pm",
+               "9:45pm",
+               "10:45pm"
+            ]
+         }
+      ]
+   }
+]

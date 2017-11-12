@@ -1,0 +1,343 @@
+// Endpoint: /theaters/ottawa
+[
+   {
+      "id":"122889",
+      "name":"American Assassin",
+      "img":"https://static1.tribute.ca/poster/160x236/american-assassin-119954.jpg"
+   },
+   {
+      "id":"122596",
+      "name":"American Made",
+      "img":"https://static1.tribute.ca/poster/160x236/american-made-117030.jpg"
+   },
+   {
+      "id":"122937",
+      "name":"A Bad Moms Christmas",
+      "img":"https://static1.tribute.ca/poster/160x236/a-bad-moms-christmas-119834.jpg"
+   },
+   {
+      "id":"57428",
+      "name":"Battle of the Sexes",
+      "img":"https://static1.tribute.ca/poster/160x236/battle-of-the-sexes-113622.jpg"
+   },
+   {
+      "id":"115681",
+      "name":"A Beautiful Planet",
+      "img":"https://static2.tribute.ca/poster/160x236/a-beautiful-planet-6887.jpg"
+   },
+   {
+      "id":"128734",
+      "name":"Bhalwan Singh",
+      "img":"https://static2.tribute.ca/poster/160x236/bhalwan-singh-121443.jpg"
+   },
+   {
+      "id":"123275",
+      "name":"The Big Sick",
+      "img":"https://static1.tribute.ca/poster/160x236/the-big-sick-112026.jpg"
+   },
+   {
+      "id":"122825",
+      "name":"Blade Runner 2049",
+      "img":"https://static1.tribute.ca/poster/160x236/blade-runner-2049-119514.jpg"
+   },
+   {
+      "id":"126261",
+      "name":"Breathe",
+      "img":"https://static2.tribute.ca/poster/160x236/breathe-117987.jpg"
+   },
+   {
+      "id":"128198",
+      "name":"City of Rock",
+      "img":"https://static1.tribute.ca/poster/160x236/city-of-rock-120686.jpg"
+   },
+   {
+      "id":"124026",
+      "name":"Daddy's Home 2",
+      "img":"https://static2.tribute.ca/poster/160x236/daddys-home-2-121403.jpg"
+   },
+   {
+      "id":"122593",
+      "name":"Despicable Me 3",
+      "img":"https://static2.tribute.ca/poster/160x236/despicable-me-3-29825.jpg"
+   },
+   {
+      "id":"127145",
+      "name":"The Divine Order",
+      "img":"https://static1.tribute.ca/poster/160x236/the-divine-order-119414.jpg"
+   },
+   {
+      "id":"119766",
+      "name":"Dunkirk",
+      "img":"https://static1.tribute.ca/poster/160x236/dunkirk-10768.jpg"
+   },
+   {
+      "id":"127678",
+      "name":"Faces Places",
+      "img":"https://static2.tribute.ca/poster/160x236/faces-places-120771.jpg"
+   },
+   {
+      "id":"70262",
+      "name":"Flatliners",
+      "img":"https://static1.tribute.ca/poster/160x236/flatliners-119620.jpg"
+   },
+   {
+      "id":"127606",
+      "name":"The Florida Project",
+      "img":"https://static1.tribute.ca/poster/160x236/the-florida-project-119868.jpg"
+   },
+   {
+      "id":"34050",
+      "name":"The Foreigner",
+      "img":"https://static2.tribute.ca/poster/160x236/the-foreigner-117621.jpg"
+   },
+   {
+      "id":"119133",
+      "name":"Geostorm",
+      "img":"https://static2.tribute.ca/poster/160x236/geostorm-120481.jpg"
+   },
+   {
+      "id":"101577",
+      "name":"God's Own Country",
+      "img":"https://static1.tribute.ca/poster/160x236/gods-own-country-120260.jpg"
+   },
+   {
+      "id":"128526",
+      "name":"Golmaal Again",
+      "img":"https://static2.tribute.ca/poster/160x236/golmaal-again-121199.jpg"
+   },
+   {
+      "id":"124969",
+      "name":"Goodbye Christopher Robin",
+      "img":"https://static1.tribute.ca/poster/160x236/goodbye-christopher-robin-119052.jpg"
+   },
+   {
+      "id":"126097",
+      "name":"Happy Death Day",
+      "img":"https://static1.tribute.ca/poster/160x236/happy-death-day-117626.jpg"
+   },
+   {
+      "id":"119134",
+      "name":"Hidden Figures",
+      "img":"https://static1.tribute.ca/poster/160x236/hidden-figures-7314.jpg"
+   },
+   {
+      "id":"119343",
+      "name":"The Hitman's Bodyguard",
+      "img":"https://static1.tribute.ca/poster/160x236/the-hitmans-bodyguard-108302.jpg"
+   },
+   {
+      "id":"127616",
+      "name":"Human Flow",
+      "img":"https://static1.tribute.ca/poster/160x236/human-flow-119890.jpg"
+   },
+   {
+      "id":"125741",
+      "name":"Infinity Baby",
+      "img":"https://static2.tribute.ca/poster/160x236/infinity-baby-121475.jpg"
+   },
+   {
+      "id":"30263",
+      "name":"IT",
+      "img":"https://static2.tribute.ca/poster/160x236/it-119701.jpg"
+   },
+   {
+      "id":"82211",
+      "name":"Ittefaq",
+      "img":"https://static1.tribute.ca/poster/160x236/ittefaq-121442.jpg"
+   },
+   {
+      "id":"122545",
+      "name":"Jigsaw",
+      "img":"https://static1.tribute.ca/poster/160x236/jigsaw-120274.jpg"
+   },
+   {
+      "id":"125001",
+      "name":"The Killing of a Sacred Deer",
+      "img":"https://static2.tribute.ca/poster/160x236/the-killing-of-a-sacred-deer-121501.jpg"
+   },
+   {
+      "id":"113969",
+      "name":"Kingsman: The Golden Circle",
+      "img":"https://static2.tribute.ca/poster/160x236/kingsman-the-golden-circle-6663.jpg"
+   },
+   {
+      "id":"127718",
+      "name":"Lady Bird",
+      "img":"https://static1.tribute.ca/poster/160x236/lady-bird-121502.jpg"
+   },
+   {
+      "id":"119866",
+      "name":"LBJ",
+      "img":"https://static2.tribute.ca/poster/160x236/lbj-120017.jpg"
+   },
+   {
+      "id":"122874",
+      "name":"The LEGO NINJAGO Movie",
+      "img":"https://static1.tribute.ca/poster/160x236/the-lego-ninjago-movie-120018.jpg"
+   },
+   {
+      "id":"94817",
+      "name":"Lion",
+      "img":"https://static2.tribute.ca/poster/160x236/lion-4913.jpg"
+   },
+   {
+      "id":"106683",
+      "name":"The Little Prince",
+      "img":"https://static1.tribute.ca/poster/160x236/the-little-prince-5832.jpg"
+   },
+   {
+      "id":"126615",
+      "name":"Loving Vincent",
+      "img":"https://static2.tribute.ca/poster/160x236/loving-vincent-118591.jpg"
+   },
+   {
+      "id":"127974",
+      "name":"Lucky",
+      "img":"https://static1.tribute.ca/poster/160x236/lucky-120420.jpg"
+   },
+   {
+      "id":"126614",
+      "name":"Mark Felt: The Man Who Brought Down the White House",
+      "img":"https://static2.tribute.ca/poster/160x236/mark-felt-the-man-who-brought-down-the-white-house-120231.jpg"
+   },
+   {
+      "id":"128317",
+      "name":"Mersal",
+      "img":"https://static2.tribute.ca/poster/160x236/mersal-121127.jpg"
+   },
+   {
+      "id":"127023",
+      "name":"The Metropolitan Opera: Die Zauberflöte",
+      "img":"https://static1.tribute.ca/poster/160x236/the-metropolitan-opera-die-zauberflote-119272.jpg"
+   },
+   {
+      "id":"123701",
+      "name":"mother!",
+      "img":"https://static1.tribute.ca/poster/160x236/mother-117624.jpg"
+   },
+   {
+      "id":"122561",
+      "name":"The Mountain Between Us",
+      "img":"https://static2.tribute.ca/poster/160x236/the-mountain-between-us-116919.jpg"
+   },
+   {
+      "id":"122564",
+      "name":"Murder on the Orient Express",
+      "img":"https://static2.tribute.ca/poster/160x236/murder-on-the-orient-express-120851.jpg"
+   },
+   {
+      "id":"77180",
+      "name":"My Little Pony: The Movie",
+      "img":"https://static1.tribute.ca/poster/160x236/my-little-pony-the-movie-109526.jpg"
+   },
+   {
+      "id":"127973",
+      "name":"Never Say Die",
+      "img":"https://static1.tribute.ca/poster/160x236/never-say-die-120944.jpg"
+   },
+   {
+      "id":"119956",
+      "name":"Nocturnal Animals",
+      "img":"https://static1.tribute.ca/poster/160x236/nocturnal-animals-7454.jpg"
+   },
+   {
+      "id":"123254",
+      "name":"Novitiate",
+      "img":"https://static1.tribute.ca/poster/160x236/novitiate-120232.jpg"
+   },
+   {
+      "id":"111407",
+      "name":"The Nut Job 2: Nutty By Nature",
+      "img":"https://static1.tribute.ca/poster/160x236/the-nut-job-2-nutty-by-nature-10562.jpg"
+   },
+   {
+      "id":"126545",
+      "name":"Only the Brave",
+      "img":"https://static2.tribute.ca/poster/160x236/only-the-brave-118513.jpg"
+   },
+   {
+      "id":"126894",
+      "name":"Pokémon the Movie: I Choose You!",
+      "img":"https://static1.tribute.ca/poster/160x236/pokemon-the-movie-i-choose-you-119500.jpg"
+   },
+   {
+      "id":"126504",
+      "name":"Professor Marston & the Wonder Women",
+      "img":"https://static1.tribute.ca/poster/160x236/professor-marston-the-wonder-women-120402.jpg"
+   },
+   {
+      "id":"114995",
+      "name":"Same Kind of Different as Me",
+      "img":"https://static2.tribute.ca/poster/160x236/same-kind-of-different-as-me-120399.jpg"
+   },
+   {
+      "id":"128876",
+      "name":"Sardar Mohammad",
+      "img":"https://static1.tribute.ca/poster/160x236/sardar-mohammad-121428.jpg"
+   },
+   {
+      "id":"128147",
+      "name":"Secret Superstar (Hindi w/e.s.t.)",
+      "img":"https://static1.tribute.ca/poster/160x236/secret-superstar-hindi-west-120526.jpg"
+   },
+   {
+      "id":"48390",
+      "name":"Seven Sundays",
+      "img":"https://static1.tribute.ca/poster/160x236/seven-sundays-121306.jpg"
+   },
+   {
+      "id":"122597",
+      "name":"The Snowman",
+      "img":"https://static2.tribute.ca/poster/160x236/the-snowman-117627.jpg"
+   },
+   {
+      "id":"124827",
+      "name":"Stronger",
+      "img":"https://static1.tribute.ca/poster/160x236/stronger-109588.jpg"
+   },
+   {
+      "id":"124622",
+      "name":"Suburbicon",
+      "img":"https://static2.tribute.ca/poster/160x236/suburbicon-121261.jpg"
+   },
+   {
+      "id":"124590",
+      "name":"Thank You for Your Service",
+      "img":"https://static1.tribute.ca/poster/160x236/thank-you-for-your-service-117808.jpg"
+   },
+   {
+      "id":"118558",
+      "name":"Thor: Ragnarok",
+      "img":"https://static1.tribute.ca/poster/160x236/thor-ragnarok-119516.jpg"
+   },
+   {
+      "id":"127144",
+      "name":"Tyler Perry's Boo 2! A Madea Halloween",
+      "img":"https://static2.tribute.ca/poster/160x236/tyler-perrys-boo-2-a-madea-halloween-119403.jpg"
+   },
+   {
+      "id":"120184",
+      "name":"Una",
+      "img":"https://static1.tribute.ca/poster/160x236/una-121148.jpg"
+   },
+   {
+      "id":"126798",
+      "name":"Viceroy's House",
+      "img":"https://static2.tribute.ca/poster/160x236/viceroys-house-118953.jpg"
+   },
+   {
+      "id":"122915",
+      "name":"Victoria & Abdul",
+      "img":"https://static2.tribute.ca/poster/160x236/victoria-and-abdul-116921.jpg"
+   },
+   {
+      "id":"123272",
+      "name":"Wind River",
+      "img":"https://static2.tribute.ca/poster/160x236/wind-river-105113.jpg"
+   },
+   {
+      "id":"126608",
+      "name":"Wonderstruck",
+      "img":"https://static1.tribute.ca/poster/160x236/wonderstruck-120346.jpg"
+   }
+]

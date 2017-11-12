@@ -1,0 +1,124 @@
+// Endpoint: /sessions/aaxue/2017-11-12
+[
+   {
+      "id":"aanju",
+      "name":"Cinéma Banque Scotia Montreal",
+      "uri":"/showtimes/theatre/cinema-banque-scotia-montreal/aanju/",
+      "movieId":"122825",
+      "movie":"Blade Runner 2049",
+      "rating":"13+",
+      "genre":" Sci-Fi/Fantasy",
+      "runtime":" 163 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes ",
+            "times":[
+               "5:30pm"
+            ]
+         },
+         {
+            "type":"3D Showtimes ",
+            "times":[
+               "1:40pm",
+               "9:30pm"
+            ]
+         }
+      ]
+   },
+   {
+      "id":"aafvu",
+      "name":"Cinéstarz Côte-des-Neiges",
+      "uri":"/showtimes/theatre/cinestarz-cote-des-neiges/aafvu/",
+      "movieId":"122825",
+      "movie":"Blade Runner 2049",
+      "rating":"13+",
+      "genre":" Sci-Fi/Fantasy",
+      "runtime":" 163 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes ",
+            "times":[
+               "1:00pm",
+               "3:45pm",
+               "7:00pm",
+               "9:45pm"
+            ]
+         }
+      ]
+   },
+   {
+      "id":"gc12",
+      "name":"Méga-Plex Marché Central 18",
+      "uri":"/showtimes/theatre/mega-plex-marche-central-18/gc12/",
+      "movieId":"122825",
+      "movie":"Blade Runner 2049",
+      "rating":"13+",
+      "genre":" Sci-Fi/Fantasy",
+      "runtime":" 163 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes ",
+            "times":[
+               "1:00pm",
+               "4:15pm",
+               "7:30pm"
+            ]
+         }
+      ]
+   },
+   {
+      "id":"aaixe",
+      "name":"Quartier Latin, Montreal",
+      "uri":"/showtimes/theatre/quartier-latin-montreal/aaixe/",
+      "movieId":"122825",
+      "movie":"Blade Runner 2049",
+      "rating":"13+",
+      "genre":" Sci-Fi/Fantasy",
+      "runtime":" 163 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC)",
+            "times":[
+               "4:45pm"
+            ]
+         },
+         {
+            "type":"3D Showtimes  (CC)",
+            "times":[
+               "1:15pm",
+               "2:00pm",
+               "5:30pm",
+               "8:15pm"
+            ]
+         }
+      ]
+   },
+   {
+      "id":"aapik",
+      "name":"Starcité Montréal",
+      "uri":"/showtimes/theatre/starcite-montreal/aapik/",
+      "movieId":"122825",
+      "movie":"Blade Runner 2049",
+      "rating":"13+",
+      "genre":" Sci-Fi/Fantasy",
+      "runtime":" 163 min",
+      "showtimes":[
+         {
+            "type":"Regular Showtimes  (CC)",
+            "times":[
+               "4:20pm",
+               "4:30pm"
+            ]
+         },
+         {
+            "type":"3D Showtimes  (CC)",
+            "times":[
+               "12:35pm",
+               "12:45pm",
+               "8:00pm",
+               "8:10pm"
+            ]
+         }
+      ]
+   }
+]
