@@ -43,8 +43,64 @@ app.get('/sessions/:theaterId/:date', function (req, res) {
         res.send(r);
       })
       .catch((err) => {
-        res.send({ error: "Couldn't get the sessions." });
+        res.send(err);
       });
+});
+
+app.get('/movie/:movieId/theaters/:city/:date', function (req, res) {
+  let movieId = req.params.movieId;
+  let city = req.params.city;
+  let date = req.params.date;
+  let sessionsByMovie = [];
+
+  utils
+    .getMovies()
+    .then((movies) => {
+      console.log(`Getting movies and filtering it by the id ${movieId}`);
+
+      let selectedMovie =
+        movies
+          .find((f) => parseInt(f.id) === parseInt(movieId));
+
+      if (selectedMovie.hasOwnProperty('id')) {
+        utils
+          .getTheaters(city)
+            .then((theaters) => {
+              console.log('Getting theaters...');
+
+              let sessionsPromise = new Promise((resolve, reject) => {
+                resolve(
+                  theaters
+                    .map((theater) => {
+                      utils
+                        .getSessionsByTheater(theater.id, date)
+                          .then((sessionsByTheater) => {
+                            console.log(`Getting session from ${theater.name}`);
+                            return sessionsByTheater.movieId === movieId;
+                          });
+                    })
+                  );
+              });
+
+              sessionsPromise
+                .then((filteredSessions) => {
+                  console.log('Getting sessions by theater...');
+
+                  res.send(filteredSessions || []);
+                });
+            })
+            .catch((err) => {
+              res.send({ error: "Error on getting the theaters." });
+            });
+      }
+      else {
+        console.log("Couldn't find the selected movie.");
+        res.send({ error: "Couldn't find the selected movie." });
+      }
+    })
+    .catch((err) => {
+      res.send(err);
+    });
 });
 
 app.listen(port, function () {
