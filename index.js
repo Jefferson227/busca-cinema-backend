@@ -56,8 +56,8 @@ app.get('/movie/:movieId/theaters/:city/:date', function (req, res) {
   utils
     .getMovies()
     .then((movies) => {
-      console.log(`Getting movies and filtering it by the id ${movieId}`);
 
+      // Filtering the movie by id
       let selectedMovie =
         movies
           .find((f) => parseInt(f.id) === parseInt(movieId));
@@ -66,35 +66,44 @@ app.get('/movie/:movieId/theaters/:city/:date', function (req, res) {
         utils
           .getTheaters(city)
             .then((theaters) => {
-              console.log('Getting theaters...');
+              // Getting all the theaters
+              let sessionsPromises = [];
 
-              let sessionsPromise = new Promise((resolve, reject) => {
-                resolve(
-                  theaters
-                    .map((theater) => {
+              theaters
+                .forEach((theater) => {
+                  sessionsPromises
+                    .push(
                       utils
                         .getSessionsByTheater(theater.id, date)
                           .then((sessionsByTheater) => {
-                            console.log(`Getting session from ${theater.name}`);
-                            return sessionsByTheater.movieId === movieId;
-                          });
-                    })
-                  );
-              });
+                            // Getting sessions for each theater
+                            let filteredSessions =
+                              sessionsByTheater
+                                .find((f) => f.movieId === movieId);
 
-              sessionsPromise
-                .then((filteredSessions) => {
-                  console.log('Getting sessions by theater...');
-
-                  res.send(filteredSessions || []);
+                            return Object.assign(theater, filteredSessions);
+                          })
+                    );
                 });
+
+                Promise
+                  .all(sessionsPromises)
+                  .then((sessionsByMovie) => {
+                    // Filtering the array for those theaters which has sessions available
+                    let theatersWithSessions =
+                      sessionsByMovie
+                        .filter((session) => {
+                          return session.hasOwnProperty('showtimes');
+                        });
+
+                    res.send(theatersWithSessions);
+                  });
             })
             .catch((err) => {
               res.send({ error: "Error on getting the theaters." });
             });
       }
       else {
-        console.log("Couldn't find the selected movie.");
         res.send({ error: "Couldn't find the selected movie." });
       }
     })
