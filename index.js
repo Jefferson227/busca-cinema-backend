@@ -20,7 +20,17 @@ app.get('/events/city/:id', function (req, res) {
 
   request(url, function (error, response, html) {
     if (!error) {
-      res.send(html || []);
+      let filteredJson =
+        JSON.parse(html)
+          .items
+          .map((movie) => {
+            return {
+              id: movie.id,
+              name: movie.title,
+              img: movie.images[1].url
+            };
+          });
+      res.send(filteredJson || []);
     }
     else {
       res.send(error);
