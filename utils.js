@@ -26,6 +26,7 @@ let utils = () => {
                     || $(movie).find('.synopsis').find('span').text().trim(),
             img: $(movie).find('a').find('img').data('src')
                     || $(movie).find('a').find('img').attr('src')
+                      .replace('/160x236/', '/660x980/')
           });
         });
 
