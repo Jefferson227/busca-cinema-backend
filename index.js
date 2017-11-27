@@ -96,20 +96,24 @@ app.get('/movie/:movieId/theaters/:city/:date', function (req, res) {
                           return session.hasOwnProperty('showtimes');
                         });
 
-                    let theatersWithSessions = {
-                      title: _theatersWithSessions[0].movie,
-                      rating: _theatersWithSessions[0].rating,
-                      genre: _theatersWithSessions[0].genre.trim(),
-                      runtime: _theatersWithSessions[0].runtime.trim(),
-                      sessions: _theatersWithSessions
-                                  .map((a) => {
-                                    return {
-                                      theater: a.name,
-                                      showtimes: a.showtimes.reduce((x, y) => {
-                                        return x.concat(y);
-                                      }, [])
-                                    };
-                                  })
+                    let theatersWithSessions = [];
+
+                    if (_theatersWithSessions.length) {
+                      theatersWithSessions = {
+                        title: _theatersWithSessions[0].movie,
+                        rating: _theatersWithSessions[0].rating,
+                        genre: _theatersWithSessions[0].genre.trim(),
+                        runtime: _theatersWithSessions[0].runtime.trim(),
+                        sessions: _theatersWithSessions
+                                    .map((a) => {
+                                      return {
+                                        theater: a.name,
+                                        showtimes: a.showtimes.reduce((x, y) => {
+                                          return x.concat(y);
+                                        }, [])
+                                      };
+                                    })
+                      }
                     }
 
                     console.log(theatersWithSessions);
