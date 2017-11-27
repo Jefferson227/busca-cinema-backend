@@ -90,12 +90,29 @@ app.get('/movie/:movieId/theaters/:city/:date', function (req, res) {
                   .all(sessionsPromises)
                   .then((sessionsByMovie) => {
                     // Filtering the array for those theaters which has sessions available
-                    let theatersWithSessions =
+                    let _theatersWithSessions =
                       sessionsByMovie
                         .filter((session) => {
                           return session.hasOwnProperty('showtimes');
                         });
 
+                    let theatersWithSessions = {
+                      title: _theatersWithSessions[0].movie,
+                      rating: _theatersWithSessions[0].rating,
+                      genre: _theatersWithSessions[0].genre.trim(),
+                      runtime: _theatersWithSessions[0].runtime.trim(),
+                      sessions: _theatersWithSessions
+                                  .map((a) => {
+                                    return {
+                                      theater: a.name,
+                                      showtimes: a.showtimes.reduce((x, y) => {
+                                        return x.concat(y);
+                                      }, [])
+                                    };
+                                  })
+                    }
+
+                    console.log(theatersWithSessions);
                     res.send(theatersWithSessions);
                   });
             })
