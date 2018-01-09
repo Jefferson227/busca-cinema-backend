@@ -10,6 +10,7 @@ var swaggerDocument = require('./swagger.json');
 // Swagger configuration
 app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
+// Setting header config to avoid CORS problem
 app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   return next();
