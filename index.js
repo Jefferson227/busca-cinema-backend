@@ -16,10 +16,6 @@ app.use(function (req, res, next) {
   return next();
 });
 
-app.get('/', function (req, res) {
-  res.send('Hello this is the busca-cinema-backend :)');
-});
-
 app.get('/movies', function (req, res) {
   utils
     .getMovies()
