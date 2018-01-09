@@ -23,6 +23,7 @@
     "express": "^4.16.2",
     "moment": "^2.19.1",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "swagger-ui-express": "^2.0.13"
   }
 }
