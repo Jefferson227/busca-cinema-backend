@@ -5,6 +5,10 @@ var app = express();
 var baseUrl = 'https://api-content.ingresso.com/v0';
 var partnership = '/partnership/0';
 var port = process.env.PORT || 3000;
+var swaggerUi = require('swagger-ui-express')
+var swaggerDocument = require('./swagger.json');
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
