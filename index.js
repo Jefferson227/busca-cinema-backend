@@ -7,9 +7,6 @@ var port = process.env.PORT || 3000;
 var swaggerUi = require('swagger-ui-express')
 var swaggerDocument = require('./swagger.json');
 
-// Swagger configuration
-app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
 // Setting header config to avoid CORS problem
 app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -134,6 +131,9 @@ app.get('/movie/:movieId/theaters/:city/:date', function (req, res) {
       res.send(err);
     });
 });
+
+// Swagger configuration
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.listen(port, function () {
   console.log('Example app listening on port 3000!');
