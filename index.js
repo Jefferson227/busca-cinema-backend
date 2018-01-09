@@ -4,6 +4,10 @@ var utils = utilsModule();
 var app = express();
 var baseUrl = 'https://www.tribute.ca';
 var port = process.env.PORT || 3000;
+var swaggerUi = require('swagger-ui-express')
+var swaggerDocument = require('./swagger.json');
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
