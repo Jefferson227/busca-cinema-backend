@@ -5,8 +5,8 @@ This is the repository dedicated to be the backend to the [busca-cinema](https:/
 ## Location
 
 There are different branches for specific locations:
-* `master` for brazilian cities
-* `feature/tribute` for canadian cities
+* `master` for Brazilian cities
+* `feature/tribute` for Canadian cities
 
 ## Setup
 
